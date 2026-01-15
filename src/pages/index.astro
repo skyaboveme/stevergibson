@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import profileImage from "../assets/profile.jpg";
+import careerImage from "../assets/stevergibsoncareer.jpg";
 import Testimonials from "../components/Testimonials.astro";
 import RecentPosts from "../components/RecentPosts.astro";
 
@@ -343,6 +344,14 @@ const pageTitle = "Steve R Gibson - Marketing Director";
 			</div>
 		</div>
 	</section>
+
+	<div class="py-12">
+		<Image
+			src={careerImage}
+			alt="Steve R Gibson Career"
+			class="rounded-xl shadow-lg w-full object-cover"
+		/>
+	</div>
 
 	<!-- Testimonials Section -->
 	<Testimonials />

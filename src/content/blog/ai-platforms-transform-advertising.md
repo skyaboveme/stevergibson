@@ -1,7 +1,7 @@
 ---
 title: "The Next Frontier: Why AI Platforms Are About to Transform Digital Advertising"
 description: "The advertising landscape is on the brink of disruption. OpenAI, Perplexity, and other AI platforms are positioning themselves as the next major advertising channels."
-pubDate: 2026-01-14
+pubDate: 2025-11-05
 heroImage: "/images/blog/lightbridge.png"
 ---
 

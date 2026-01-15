@@ -7,8 +7,6 @@ heroImage: "/images/blog/google-ads-paradigm-diagram.jpeg"
 
 The operational paradigm for Google Ads has fundamentally shifted from a model of manual control to one of AI-driven automation. This transformation reflects a broader industry trend where specialized marketing roles are consolidating into a single, AI-augmented operator responsible for strategic direction rather than tactical execution.
 
-![Google Ads Paradigm Shift](/images/blog/google-ads-paradigm-diagram.jpeg)
-
 ## The Evolution of Control
 
 The core principle of managing Google Ads is no longer "Bid, target, tweak," but has evolved into a new mandate: **"Feed, signal, steer."**

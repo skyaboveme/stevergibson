@@ -1,0 +1,62 @@
+---
+const testimonials = [
+    {
+        quote: "Steve Gibson is the true definition of a paid search rock star. I’ve been fortunate enough to work with Steve on the Hyundai SEM team at Initiative. In that time, I’ve been able to strengthen my knowledge of paid search strategy. Not only does he know the best practices to optimize and improve account performance, he is also quick to formulate new strategies that utilize new features any of the engines introduce. His years of experience in the industry have given him a wealth of knowledge that he is more than happy to share with his colleagues.",
+        author: "Ben Pablo",
+        role: "Associate Director, Paid Search at Hearts & Science",
+    },
+    {
+        quote: 'I\'ve had the pleasure of working with Steve aka "The Zen Master" for the past year on the Kia Search business. Steve is a highly experienced marketer with a strong understanding of the power of Search and analytics. Steve can turn a not so exciting conversation about Search into an intriguing story and draw you in. His company-wide presentation of search media was what ultimately lead me to leave display and join the Kia Search team. He is constantly working to find creative solutions to complex problems.',
+        author: "Parisa Heidari",
+        role: "Performance Marketing & Advertising",
+    },
+    {
+        quote: "Leading the Hyundai and Kia accounts, Steve was the band leader that kept the team together, culturally and professionally, and I appreciated his open door, hands-on attitude in guiding the strategy, business intelligence of the account. Steve has also provided opportunities to broaden my scope as a search marketer, allowing me to contribute to one-off projects such as Rock in Rio.",
+        author: "William Saw",
+        role: "Associate Director, Search at Hearts & Science",
+    },
+];
+---
+
+<section
+    id="testimonials"
+    class="py-12 border-t border-slate-200 dark:border-slate-800"
+>
+    <h3 class="text-2xl font-bold mb-8 text-slate-900 dark:text-white">
+        What Colleagues Say
+    </h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {
+            testimonials.map((testimonial) => (
+                <div class="bg-slate-50 dark:bg-slate-900 p-6 rounded-xl border border-slate-100 dark:border-slate-800 shadow-sm relative">
+                    <svg
+                        class="absolute top-6 left-6 w-8 h-8 text-blue-200 dark:text-blue-900 transform -translate-x-2 -translate-y-2 opacity-50"
+                        fill="currentColor"
+                        viewBox="0 0 32 32"
+                        aria-hidden="true"
+                    >
+                        <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                    </svg>
+                    <div class="relative z-10">
+                        <p class="text-slate-600 dark:text-slate-300 italic mb-6 leading-relaxed">
+                            "{testimonial.quote}"
+                        </p>
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-300 font-bold text-lg">
+                                {testimonial.author.charAt(0)}
+                            </div>
+                            <div>
+                                <p class="font-semibold text-slate-900 dark:text-white text-sm">
+                                    {testimonial.author}
+                                </p>
+                                <p class="text-xs text-slate-500 dark:text-slate-400">
+                                    {testimonial.role}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            ))
+        }
+    </div>
+</section>

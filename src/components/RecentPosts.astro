@@ -1,0 +1,80 @@
+---
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog"))
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+    .slice(0, 3);
+---
+
+<section class="py-12 border-t border-slate-200 dark:border-slate-800">
+    <div class="flex justify-between items-end mb-8">
+        <div>
+            <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-2">
+                Recent Insights
+            </h3>
+            <p class="text-slate-600 dark:text-slate-400">
+                Thoughts on digital marketing, AI, and growth strategy.
+            </p>
+        </div>
+        <a
+            href="/blog"
+            class="text-blue-600 hover:text-blue-700 font-medium hidden sm:block"
+        >
+            View All Articles &rarr;
+        </a>
+    </div>
+
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {
+            posts.map((post) => (
+                <article class="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 overflow-hidden hover:shadow-md transition-shadow group">
+                    <a
+                        href={`/blog/${post.slug}/`}
+                        class="block h-full flex flex-col"
+                    >
+                        {post.data.heroImage && (
+                            <div class="overflow-hidden h-48">
+                                <img
+                                    src={post.data.heroImage}
+                                    alt={post.data.title}
+                                    class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+                                />
+                            </div>
+                        )}
+                        <div class="p-6 flex-grow flex flex-col">
+                            <div class="flex items-center text-sm text-slate-500 mb-2">
+                                <time
+                                    datetime={post.data.pubDate.toISOString()}
+                                >
+                                    {post.data.pubDate.toLocaleDateString(
+                                        "en-us",
+                                        {
+                                            year: "numeric",
+                                            month: "short",
+                                            day: "numeric",
+                                        },
+                                    )}
+                                </time>
+                            </div>
+                            <h2 class="text-xl font-bold text-slate-900 dark:text-white mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
+                                {post.data.title}
+                            </h2>
+                            <p class="text-slate-600 dark:text-slate-400 text-sm line-clamp-3 mb-4 flex-grow">
+                                {post.data.description}
+                            </p>
+                            <div class="text-blue-600 font-medium text-sm mt-auto">
+                                Read Article &rarr;
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            ))
+        }
+    </div>
+
+    <div class="mt-8 text-center sm:hidden">
+        <a href="/blog" class="text-blue-600 hover:text-blue-700 font-medium">
+            View All Articles &rarr;
+        </a>
+    </div>
+</section>

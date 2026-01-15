@@ -2,6 +2,8 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import profileImage from "../assets/profile.jpg";
+import Testimonials from "../components/Testimonials.astro";
+import RecentPosts from "../components/RecentPosts.astro";
 
 const pageTitle = "Steve R Gibson - Marketing Director";
 ---
@@ -341,6 +343,12 @@ const pageTitle = "Steve R Gibson - Marketing Director";
 			</div>
 		</div>
 	</section>
+
+	<!-- Testimonials Section -->
+	<Testimonials />
+
+	<!-- Recent Insights Section -->
+	<RecentPosts />
 
 	<!-- Featured Media Section -->
 	<section

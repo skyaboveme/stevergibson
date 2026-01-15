@@ -40,6 +40,9 @@ Marketing Director with 15+ years of experience leading integrated, cross-functi
 
 ## Recent Insights (Blog)
 
+**The Demise of the Keyword Jockey: How Value-Based Bidding Transformed Paid Search**
+*Summary:* Details the seismic shift in paid search from manual keyword management to value-based data architecture. Argues that success no longer depends on match types or character counts, but on feeding algorithms accurate contribution margin data, defining strategic value rules, and managing portfolio profitability.
+
 **AI Discoverability: Optimizing AI-Generated Content for E-E-A-T Success**
 *Summary:* Discusses how to make AI-generated content meet Google's E-E-A-T (Experience, Expertise, Authoritativeness, and Trustworthiness) standards. Strategies include injecting human experience, amplifying expertise with deep insights, building cross-platform authority, and establishing trust through transparency and technical signals.
 

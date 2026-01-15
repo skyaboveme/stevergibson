@@ -1,7 +1,7 @@
 ---
 title: "Don't Be a User. Be a Builder!"
 description: "Stop playing small. The companies that win won't be the ones using AI tools. They'll be the ones building AI-powered systems."
-pubDate: 2026-01-14
+pubDate: 2025-12-03
 heroImage: "/images/blog/build-dont-use.png"
 ---
 

@@ -23,6 +23,17 @@ const {
         <link rel="icon" type="image/png" href="/SteveRGibsonlogo.png" />
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Steve R Gibson",
+                "jobTitle": "Marketing Director",
+                "url": "https://stevergibson.com",
+                "sameAs": ["https://www.linkedin.com/in/stevergibson/"],
+                "description": "Marketing Director with 15+ years leading integrated, cross-functional, multi-channel growth for national brands."
+            }
+        </script>
     </head>
     <body
         class="bg-white dark:bg-slate-950 text-slate-800 dark:text-slate-200 min-h-screen flex flex-col font-sans antialiased"

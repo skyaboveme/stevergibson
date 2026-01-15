@@ -37,6 +37,11 @@ const cases = [
         outcome: "+6% Conversion Rate across the portfolio.",
         stack: ["Search Ads 360", "DV360", "Adobe Analytics", "Programmatic"],
         why: "Demonstrates the ability to operationalize complex enterprise budgets and leverage automation for scale.",
+        images: [
+            "/images/Hyundai.png",
+            "/images/Kia.png",
+            "/images/genesis.png",
+        ],
     },
     {
         client: "Mazda / Garage Team Mazda",
@@ -99,6 +104,18 @@ const cases = [
                                     alt={`${study.title} Visualization`}
                                     class="h-64 w-auto max-w-full rounded-xl shadow-md object-contain px-4 sm:px-0"
                                 />
+                            </div>
+                        )}
+
+                        {study.images && (
+                            <div class="mb-8 flex flex-wrap justify-center gap-8 items-center bg-white dark:bg-slate-800/50 p-6 rounded-xl border border-slate-100 dark:border-slate-700/50">
+                                {study.images.map((img) => (
+                                    <img
+                                        src={img}
+                                        alt={`${study.client} Logo`}
+                                        class="h-12 md:h-16 w-auto object-contain transition-opacity opacity-90 hover:opacity-100"
+                                    />
+                                ))}
                             </div>
                         )}
 

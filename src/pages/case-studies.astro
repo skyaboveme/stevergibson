@@ -1,0 +1,160 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Case Studies | Steve R Gibson";
+const description =
+    "Mini case studies of strategic marketing wins: Fullman Firm, Hyundai, and Mazda.";
+
+const cases = [
+    {
+        client: "Fullman Firm",
+        role: "Director of Marketing",
+        title: "The Lead Velocity Engine",
+        problem:
+            "High volume of low-quality leads and unpredictable revenue made it difficult to scale attorney capacity efficiently.",
+        change: "Shifted from maximizing lead volume to maximizing 'Qualified Consultations'. implemented offline conversion imports (OCT) to feed CRM data back into Google Ads, enabling value-based bidding on actual sales pipeline stages.",
+        measured:
+            "Cost Per Qualified Lead (CPQL), Lead Velocity, and Win-Rate.",
+        outcome: "-17% CAC while maintaining consultation volume.",
+        stack: [
+            "Google Ads",
+            "Salesforce",
+            "Zapier/Python",
+            "GA4",
+            "Offline Conversion Tracking",
+        ],
+        why: "Proves that aligning media signals with business truth (revenue) beats vanity metrics (leads).",
+    },
+    {
+        client: "Hyundai / Canvas Worldwide",
+        role: "VP, Group Director",
+        title: "The Algorithmic Scale-Up",
+        problem:
+            "Fragmented manual bidding across hundreds of campaigns and regions resulted in inefficient spend and operational drag for a $90MM+ budget.",
+        change: "Instituted portfolio bidding frameworks and rigorous experimentation standards across Search and Programmatic. Unified strategies to allow algorithms to optimize across the entire account structure rather than in silos.",
+        measured: "Conversion Rate and CPA efficiency at scale.",
+        outcome: "+6% Conversion Rate across the portfolio.",
+        stack: ["Search Ads 360", "DV360", "Adobe Analytics", "Programmatic"],
+        why: "Demonstrates the ability to operationalize complex enterprise budgets and leverage automation for scale.",
+    },
+    {
+        client: "Mazda / Garage Team Mazda",
+        role: "Client Director",
+        title: "The Super Bowl Hijack",
+        problem:
+            "Needed to achieve Super Bowl-level brand impact but lacked the multi-million dollar budget for an in-game spot.",
+        change: "Designed a guerrilla YouTube and Search strategy focused on capturing second-screen attention immediately before and during the game. Optimized for viral velocity and search intent spikes related to competitor ads.",
+        measured: "Video Views, earned media, and search lift.",
+        outcome:
+            "Achieved the 'Highest Viewed Auto Spot' of Super Bowl week without buying an in-game ad.",
+        stack: ["YouTube Ads", "Google Search", "Viral Content Strategy"],
+        why: "Shows that tactical agility and creative media planning can outperform raw budget.",
+    },
+];
+---
+
+<BaseLayout title={pageTitle} description={description}>
+    <section class="max-w-5xl mx-auto space-y-12">
+        <header class="text-center mb-16">
+            <h1
+                class="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-6"
+            >
+                Mini Case Studies
+            </h1>
+            <p
+                class="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto"
+            >
+                Specific problems, specific solutions, and the metrics that
+                mattered.
+            </p>
+        </header>
+
+        <div class="grid gap-8 md:grid-cols-1">
+            {
+                cases.map((study) => (
+                    <article class="bg-slate-50 dark:bg-slate-900 rounded-2xl p-8 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="flex flex-col md:flex-row md:items-start justify-between mb-6 gap-4">
+                            <div>
+                                <div class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-2">
+                                    {study.client}
+                                </div>
+                                <h2 class="text-2xl font-bold text-slate-900 dark:text-white">
+                                    {study.title}
+                                </h2>
+                                <div class="text-slate-500 dark:text-slate-400 text-sm mt-1">
+                                    {study.role}
+                                </div>
+                            </div>
+                            <div class="bg-blue-100 dark:bg-slate-800 text-blue-800 dark:text-blue-300 px-4 py-2 rounded-lg font-bold text-lg md:text-xl whitespace-nowrap self-start">
+                                {study.outcome}
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="space-y-6">
+                                <div>
+                                    <h3 class="text-sm font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wide mb-2">
+                                        The Problem
+                                    </h3>
+                                    <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+                                        {study.problem}
+                                    </p>
+                                </div>
+                                <div>
+                                    <h3 class="text-sm font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wide mb-2">
+                                        What I Changed
+                                    </h3>
+                                    <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+                                        {study.change}
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="space-y-6">
+                                <div>
+                                    <h3 class="text-sm font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wide mb-2">
+                                        What I Measured
+                                    </h3>
+                                    <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+                                        {study.measured}
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <h3 class="text-sm font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wide mb-2">
+                                        Why It Matters
+                                    </h3>
+                                    <p class="text-slate-700 dark:text-slate-300 italic leading-relaxed border-l-4 border-blue-500 pl-4">
+                                        {study.why}
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <h3 class="text-sm font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wide mb-3">
+                                        Stack & Tech
+                                    </h3>
+                                    <div class="flex flex-wrap gap-2">
+                                        {study.stack.map((tech) => (
+                                            <span class="px-3 py-1 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-full text-xs font-medium text-slate-600 dark:text-slate-300">
+                                                {tech}
+                                            </span>
+                                        ))}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                ))
+            }
+        </div>
+
+        <div class="text-center mt-12">
+            <a
+                href="/#contact"
+                class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-full shadow-lg transition-all hover:-translate-y-1"
+            >
+                Discuss Your Strategy
+            </a>
+        </div>
+    </section>
+</BaseLayout>

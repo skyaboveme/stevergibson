@@ -1,0 +1,68 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+
+<BaseLayout title="Blog | Steve R Gibson">
+    <section class="mb-12 text-center">
+        <h1
+            class="text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-4"
+        >
+            Insights & Strategy
+        </h1>
+        <p class="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
+            Thoughts on the evolution of digital marketing, AI automation, and
+            strategic growth.
+        </p>
+    </section>
+
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {
+            posts.map((post) => (
+                <article class="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 overflow-hidden hover:shadow-md transition-shadow">
+                    <a
+                        href={`/blog/${post.slug}/`}
+                        class="block h-full flex flex-col"
+                    >
+                        {post.data.heroImage && (
+                            <img
+                                src={post.data.heroImage}
+                                alt={post.data.title}
+                                class="w-full h-48 object-cover"
+                            />
+                        )}
+                        <div class="p-6 flex-grow flex flex-col">
+                            <div class="flex items-center text-sm text-slate-500 mb-2">
+                                <time
+                                    datetime={post.data.pubDate.toISOString()}
+                                >
+                                    {post.data.pubDate.toLocaleDateString(
+                                        "en-us",
+                                        {
+                                            year: "numeric",
+                                            month: "short",
+                                            day: "numeric",
+                                        },
+                                    )}
+                                </time>
+                            </div>
+                            <h2 class="text-xl font-bold text-slate-900 dark:text-white mb-2 line-clamp-2">
+                                {post.data.title}
+                            </h2>
+                            <p class="text-slate-600 dark:text-slate-400 text-sm line-clamp-3 mb-4 flex-grow">
+                                {post.data.description}
+                            </p>
+                            <div class="text-blue-600 font-medium text-sm mt-auto">
+                                Read Article &rarr;
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            ))
+        }
+    </div>
+</BaseLayout>

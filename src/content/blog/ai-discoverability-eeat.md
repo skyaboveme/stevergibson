@@ -1,7 +1,7 @@
 ---
 title: "AI Discoverability: Optimizing AI-Generated Content for E-E-A-T Success"
 description: "How to strategically enhance AI content with human expertise, authentic experiences, and trust-building elements to meet Google's E-E-A-T standards."
-pubDate: 2026-01-16
+pubDate: 2025-10-10
 heroImage: "/images/blog/ai-eeat-hero.png"
 ---
 

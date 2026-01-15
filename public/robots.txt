@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://stevergibson.com/sitemap-index.xml

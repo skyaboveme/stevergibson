@@ -1,7 +1,7 @@
 ---
 title: "Apple Finally Blinked: The Apple & Gemini Deal and the War for the Assistant Layer"
 description: "Apple has outsourced the 'intelligence layer' to Gemini so they can dominate the 'assistant layer'. Here's why that changes everything for search marketing."
-pubDate: 2026-01-08
+pubDate: 2026-01-15
 heroImage: "/images/blog/apple-gemini-deal.png"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Think in Patterns: The Question Journey"
 description: "Navigating Marketing in the AI Black Box Era. The shift from keywords to questions means answers are becoming invisible, absorbed into the mathematical AI void."
-pubDate: 2026-01-15
+pubDate: 2025-09-21
 heroImage: "/images/blog/think-in-patterns.png"
 ---
 

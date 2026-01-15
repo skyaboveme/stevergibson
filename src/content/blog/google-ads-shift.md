@@ -2,12 +2,12 @@
 title: "The Google Ads Paradigm Shift: Feed, Signal, Steer"
 description: "The operational paradigm for Google Ads has shifted from manual control to AI-driven automation. Learn how to master the new mandate of Feed, Signal, and Steer."
 pubDate: 2026-01-14
-heroImage: "/images/blog/google-ads-paradigm-diagram.png"
+heroImage: "/images/blog/google-ads-paradigm-diagram.jpeg"
 ---
 
 The operational paradigm for Google Ads has fundamentally shifted from a model of manual control to one of AI-driven automation. This transformation reflects a broader industry trend where specialized marketing roles are consolidating into a single, AI-augmented operator responsible for strategic direction rather than tactical execution.
 
-![Google Ads Paradigm Shift](/images/blog/google-ads-paradigm-diagram.png)
+![Google Ads Paradigm Shift](/images/blog/google-ads-paradigm-diagram.jpeg)
 
 ## The Evolution of Control
 

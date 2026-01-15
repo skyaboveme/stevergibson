@@ -40,6 +40,9 @@ Marketing Director with 15+ years of experience leading integrated, cross-functi
 
 ## Recent Insights (Blog)
 
+**Think in Patterns: The Question Journey**
+*Summary:* Analyzes the shift from keywords to questions in the "AI Black Box Era," where answers are synthesized from mathematical voids rather than retrieved links. Identifies the "Question Journey" as a new customer path mediated by AI, where attribution becomes impossible due to the generative, pre-trained nature of transformer models.
+
 **The Next Frontier: Why AI Platforms Are About to Transform Digital Advertising**
 *Summary:* The advertising landscape is shifting as OpenAI and Perplexity position themselves as major channels. Marketers must move from inference-based targeting to explicit intent strategies, building trust-first creative and preparing for a world where ads are helpful recommendations within trusted AI conversations.
 

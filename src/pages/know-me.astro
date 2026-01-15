@@ -32,6 +32,29 @@ const description =
                     performance objectives with budgets ranging from high-growth
                     venture accounts to multi-million dollar national media.
                 </p>
+
+                <div
+                    class="grid grid-cols-2 md:grid-cols-3 gap-4 my-8 not-prose"
+                >
+                    {
+                        [
+                            "Mazda",
+                            "Hyundai",
+                            "Kia",
+                            "Best Western",
+                            "Genesis",
+                            "DSPG",
+                            "Annapurna",
+                            "Breville",
+                            "Heineken",
+                        ].map((brand) => (
+                            <div class="flex items-center justify-center p-6 bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wider text-sm hover:text-slate-900 dark:hover:text-white hover:border-slate-200 dark:hover:border-slate-700 transition-all select-none">
+                                {brand}
+                            </div>
+                        ))
+                    }
+                </div>
+
                 <p
                     class="text-slate-600 dark:text-slate-300 leading-relaxed mt-4"
                 >

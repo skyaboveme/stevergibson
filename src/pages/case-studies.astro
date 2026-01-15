@@ -49,6 +49,7 @@ const cases = [
             "Achieved the 'Highest Viewed Auto Spot' of Super Bowl week without buying an in-game ad.",
         stack: ["YouTube Ads", "Google Search", "Viral Content Strategy"],
         why: "Shows that tactical agility and creative media planning can outperform raw budget.",
+        image: "/images/superbowl.png",
     },
 ];
 ---
@@ -85,10 +86,20 @@ const cases = [
                                     {study.role}
                                 </div>
                             </div>
-                            <div class="bg-blue-100 dark:bg-slate-800 text-blue-800 dark:text-blue-300 px-4 py-2 rounded-lg font-bold text-lg md:text-xl whitespace-nowrap self-start">
+                            <div class="bg-blue-100 dark:bg-slate-800 text-blue-800 dark:text-blue-300 px-4 py-2 rounded-lg font-bold text-lg md:text-xl self-start text-left">
                                 {study.outcome}
                             </div>
                         </div>
+
+                        {study.image && (
+                            <div class="mb-8 rounded-xl overflow-hidden shadow-md">
+                                <img
+                                    src={study.image}
+                                    alt={`${study.title} Visualization`}
+                                    class="w-full h-auto object-cover"
+                                />
+                            </div>
+                        )}
 
                         <div class="grid md:grid-cols-2 gap-8">
                             <div class="space-y-6">

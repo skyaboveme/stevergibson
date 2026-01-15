@@ -35,9 +35,9 @@
     const theme = (() => {
         if (
             typeof localStorage !== "undefined" &&
-            localStorage.getItem("color-theme")
+            localStorage.getItem("color-theme-v2")
         ) {
-            return localStorage.getItem("color-theme");
+            return localStorage.getItem("color-theme-v2");
         }
         return "dark";
     })();
@@ -74,21 +74,21 @@
             themeToggleLightIcon?.classList.toggle("hidden");
 
             // Toggle theme
-            if (localStorage.getItem("color-theme")) {
-                if (localStorage.getItem("color-theme") === "light") {
+            if (localStorage.getItem("color-theme-v2")) {
+                if (localStorage.getItem("color-theme-v2") === "light") {
                     document.documentElement.classList.add("dark");
-                    localStorage.setItem("color-theme", "dark");
+                    localStorage.setItem("color-theme-v2", "dark");
                 } else {
                     document.documentElement.classList.remove("dark");
-                    localStorage.setItem("color-theme", "light");
+                    localStorage.setItem("color-theme-v2", "light");
                 }
             } else {
                 if (document.documentElement.classList.contains("dark")) {
                     document.documentElement.classList.remove("dark");
-                    localStorage.setItem("color-theme", "light");
+                    localStorage.setItem("color-theme-v2", "light");
                 } else {
                     document.documentElement.classList.add("dark");
-                    localStorage.setItem("color-theme", "dark");
+                    localStorage.setItem("color-theme-v2", "dark");
                 }
             }
         });

@@ -40,6 +40,9 @@ Marketing Director with 15+ years of experience leading integrated, cross-functi
 
 ## Recent Insights (Blog)
 
+**The AI Revolution in Programmatic Media Buying: From Simple Algorithms to Intelligent Automation**
+*Summary:* Traces the history of digital advertising from early manual bidding and RTB innovation to the modern era of fully autonomous AI systems. Discusses the shift from rule-based optimization to neural networks that understand context, sentiment, and complex business objectives.
+
 **The Demise of the Keyword Jockey: How Value-Based Bidding Transformed Paid Search**
 *Summary:* Details the seismic shift in paid search from manual keyword management to value-based data architecture. Argues that success no longer depends on match types or character counts, but on feeding algorithms accurate contribution margin data, defining strategic value rules, and managing portfolio profitability.
 

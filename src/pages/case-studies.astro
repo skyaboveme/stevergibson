@@ -113,17 +113,17 @@ const cases = [
                         </div>
 
                         {study.image && (
-                            <div class="mb-8 flex justify-center">
+                            <div class="mb-8 flex justify-center bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
                                 <img
                                     src={study.image}
                                     alt={`${study.title} Visualization`}
-                                    class="h-64 w-auto max-w-full rounded-xl shadow-md object-contain px-4 sm:px-0"
+                                    class="h-64 w-auto max-w-full rounded-xl object-contain px-4 sm:px-0"
                                 />
                             </div>
                         )}
 
                         {study.images && (
-                            <div class="mb-8 flex flex-wrap justify-center gap-8 items-center bg-white dark:bg-slate-800/50 p-6 rounded-xl border border-slate-100 dark:border-slate-700/50">
+                            <div class="mb-8 flex flex-wrap justify-center gap-8 items-center bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
                                 {study.images.map((img) => (
                                     <img
                                         src={img}

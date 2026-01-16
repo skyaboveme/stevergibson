@@ -129,7 +129,11 @@ const cases = [
                                     <img
                                         src={img}
                                         alt={`${study.client} Logo`}
-                                        class="h-12 md:h-16 w-auto object-contain transition-opacity opacity-90 hover:opacity-100"
+                                        class={`w-auto object-contain transition-opacity opacity-90 hover:opacity-100 ${
+                                            img.includes("genesis")
+                                                ? "h-16 md:h-20"
+                                                : "h-12 md:h-16"
+                                        }`}
                                     />
                                 ))}
                             </div>

@@ -35,9 +35,9 @@
     const theme = (() => {
         if (
             typeof localStorage !== "undefined" &&
-            localStorage.getItem("color-theme-v2")
+            localStorage.getItem("color-theme-v3")
         ) {
-            return localStorage.getItem("color-theme-v2");
+            return localStorage.getItem("color-theme-v3");
         }
         return "dark";
     })();
@@ -74,21 +74,21 @@
             themeToggleLightIcon?.classList.toggle("hidden");
 
             // Toggle theme
-            if (localStorage.getItem("color-theme-v2")) {
-                if (localStorage.getItem("color-theme-v2") === "light") {
+            if (localStorage.getItem("color-theme-v3")) {
+                if (localStorage.getItem("color-theme-v3") === "light") {
                     document.documentElement.classList.add("dark");
-                    localStorage.setItem("color-theme-v2", "dark");
+                    localStorage.setItem("color-theme-v3", "dark");
                 } else {
                     document.documentElement.classList.remove("dark");
-                    localStorage.setItem("color-theme-v2", "light");
+                    localStorage.setItem("color-theme-v3", "light");
                 }
             } else {
                 if (document.documentElement.classList.contains("dark")) {
                     document.documentElement.classList.remove("dark");
-                    localStorage.setItem("color-theme-v2", "light");
+                    localStorage.setItem("color-theme-v3", "light");
                 } else {
                     document.documentElement.classList.add("dark");
-                    localStorage.setItem("color-theme-v2", "dark");
+                    localStorage.setItem("color-theme-v3", "dark");
                 }
             }
         });

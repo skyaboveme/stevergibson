@@ -1,0 +1,293 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "AI & Technical Frameworks | Steve R Gibson";
+const description =
+    "Proprietary frameworks for the AI era: AI Audience Engine, Feed-Driven DCO, GEO, and Advanced Measurement Stacks.";
+---
+
+<BaseLayout title={pageTitle} description={description}>
+    <!-- Mermaid JS for Diagrams -->
+    <script type="module" is:inline>
+        import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: "base",
+            themeVariables: {
+                darkMode: true,
+                primaryColor: "#2563eb", // blue-600
+                lineColor: "#94a3b8", // slate-400
+                secondaryColor: "#1e293b", // slate-800
+                tertiaryColor: "#0f172a", // slate-950
+            },
+        });
+    </script>
+
+    <section class="max-w-5xl mx-auto space-y-20 py-12">
+        <!-- Hero -->
+        <header class="text-center space-y-6">
+            <h1
+                class="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white"
+            >
+                AI & Technical <span class="text-blue-600">Frameworks</span>
+            </h1>
+            <p
+                class="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed"
+            >
+                In the age of autonomous agents and algorithmic media, <span
+                    class="font-semibold text-slate-900 dark:text-white"
+                    >structure is the strategy.</span
+                > These are the proprietary systems I deploy to engineer predictability
+                into chaotic markets.
+            </p>
+        </header>
+
+        <!-- Framework 1: AI Audience Engine -->
+        <article
+            class="bg-white dark:bg-slate-900/50 rounded-3xl p-8 md:p-12 border border-slate-200 dark:border-slate-800 shadow-sm"
+        >
+            <div class="md:w-3/4">
+                <h2
+                    class="text-3xl font-bold text-slate-900 dark:text-white mb-4"
+                >
+                    <span class="text-blue-600 mr-2">01.</span> AI Audience Engine
+                </h2>
+                <p class="text-lg text-slate-700 dark:text-slate-300 mb-6">
+                    A closed-loop system that moves beyond static personas. It
+                    ingests first-party CRM data, enriches it with real-time
+                    intent signals, and uses predictive modeling to identify
+                    future high-value customers before they enter the market.
+                </p>
+                <ul
+                    class="grid md:grid-cols-2 gap-4 text-slate-600 dark:text-slate-400"
+                >
+                    <li class="flex items-start">
+                        <svg
+                            class="w-6 h-6 text-blue-500 mr-2 shrink-0"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            ><path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                            ></path></svg
+                        >
+                        <span>Probabilistic Lookalike Modeling</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg
+                            class="w-6 h-6 text-blue-500 mr-2 shrink-0"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            ><path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                            ></path></svg
+                        >
+                        <span
+                            >Real-time OCT (Offline Conversion Tracking)
+                            Feedback</span
+                        >
+                    </li>
+                    <li class="flex items-start">
+                        <svg
+                            class="w-6 h-6 text-blue-500 mr-2 shrink-0"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            ><path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                            ></path></svg
+                        >
+                        <span>Cross-Channel Identity Resolution</span>
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+        <!-- Framework 2: Feed-Driven DCO -->
+        <article
+            class="bg-white dark:bg-slate-900/50 rounded-3xl p-8 md:p-12 border border-slate-200 dark:border-slate-800 shadow-sm"
+        >
+            <div class="md:w-3/4 ml-auto text-right">
+                <h2
+                    class="text-3xl font-bold text-slate-900 dark:text-white mb-4"
+                >
+                    <span class="text-blue-600 mr-2">02.</span> Feed-Driven DCO for
+                    Legal
+                </h2>
+                <p class="text-lg text-slate-700 dark:text-slate-300 mb-6">
+                    Dynamic Creative Optimization adapted for high-compliance
+                    industries. We map practice areas and case types to
+                    geo-specific legal feeds, generating thousands of
+                    hyper-relevant ad variations that auto-pause based on local
+                    attorney capacity.
+                </p>
+                <ul
+                    class="grid md:grid-cols-2 gap-4 text-slate-600 dark:text-slate-400 text-left"
+                    dir="rtl"
+                >
+                    <li class="flex items-center justify-end">
+                        <span>Capacity-Aware Bidding</span>
+                        <svg
+                            class="w-6 h-6 text-blue-500 ml-2 shrink-0"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            ><path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+                            ></path></svg
+                        >
+                    </li>
+                    <li class="flex items-center justify-end">
+                        <span>Automated Compliance Guardrails</span>
+                        <svg
+                            class="w-6 h-6 text-blue-500 ml-2 shrink-0"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            ><path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                            ></path></svg
+                        >
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+        <!-- Framework 3: GEO -->
+        <article
+            class="bg-white dark:bg-slate-900/50 rounded-3xl p-8 md:p-12 border border-slate-200 dark:border-slate-800 shadow-sm"
+        >
+            <div class="md:w-3/4">
+                <h2
+                    class="text-3xl font-bold text-slate-900 dark:text-white mb-4"
+                >
+                    <span class="text-blue-600 mr-2">03.</span> Generative Engine
+                    Optimization (GEO)
+                </h2>
+                <p class="text-lg text-slate-700 dark:text-slate-300 mb-6">
+                    The successor to SEO. Optimizing brand assets not just for
+                    keywords, but for <strong>LLM retrieval and citation</strong
+                    >. Structures data to be accepted as specific, authoritative
+                    "facts" by models like Gemini, ChatGPT, and Claude.
+                </p>
+                <div class="flex flex-wrap gap-3">
+                    <span
+                        class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 rounded-full text-sm font-medium"
+                        >Entity Authority</span
+                    >
+                    <span
+                        class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 rounded-full text-sm font-medium"
+                        >Citation Density</span
+                    >
+                    <span
+                        class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 rounded-full text-sm font-medium"
+                        >Structured Knowledge Graphs</span
+                    >
+                </div>
+            </div>
+        </article>
+
+        <!-- Framework 4: 7-Stage AI Search Journey -->
+        <article
+            class="bg-white dark:bg-slate-900/50 rounded-3xl p-8 md:p-12 border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden"
+        >
+            <h2
+                class="text-3xl font-bold text-slate-900 dark:text-white mb-8 text-center"
+            >
+                <span class="text-blue-600 mr-2">04.</span> 7-Stage AI Search Journey
+            </h2>
+            <div class="mermaid flex justify-center">
+                flowchart TD A[1. Unaware] --> B[2. Problem Aware] B --> C[3.
+                Solution Seeking] C --> D[4. AI Verification] D --> E[5. Brand
+                Comparison] E --> F[6. Human Validation] F --> G[7. Decision]
+                style A fill:#1e293b,stroke:#334155,color:#fff style B
+                fill:#1e293b,stroke:#334155,color:#fff style C
+                fill:#1e293b,stroke:#334155,color:#fff style D
+                fill:#2563eb,stroke:#3b82f6,color:#fff,stroke-width:2px style E
+                fill:#1e293b,stroke:#334155,color:#fff style F
+                fill:#1e293b,stroke:#334155,color:#fff style G
+                fill:#10b981,stroke:#059669,color:#fff
+            </div>
+            <p class="text-center text-sm text-slate-500 mt-4 italic">
+                Mapping the new nonlinear path where AI agents act as the
+                primary filter before human engagement.
+            </p>
+        </article>
+
+        <!-- Framework 5: Measurement Stack -->
+        <article
+            class="bg-white dark:bg-slate-900/50 rounded-3xl p-8 md:p-12 border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden"
+        >
+            <h2
+                class="text-3xl font-bold text-slate-900 dark:text-white mb-8 text-center"
+            >
+                <span class="text-blue-600 mr-2">05.</span> The Measurement Stack
+            </h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Loop: Pacing -> Capacity -> Lead Velocity -->
+                <div class="text-center">
+                    <h3
+                        class="text-xl font-bold text-slate-800 dark:text-slate-200 mb-4"
+                    >
+                        Operations Loop
+                    </h3>
+                    <div class="mermaid flex justify-center">
+                        flowchart LR P[Media Pacing] --> C[Capacity] C -->
+                        L[Lead Velocity] L -- Feedback --> P style P
+                        fill:#1e293b,stroke:#334155,color:#fff style C
+                        fill:#1e293b,stroke:#334155,color:#fff style L
+                        fill:#2563eb,stroke:#3b82f6,color:#fff
+                    </div>
+                    <p class="text-sm text-slate-500 mt-4">
+                        Balancing inputs with operational throughput.
+                    </p>
+                </div>
+
+                <!-- Chain: CAC -> CPQL -> Rev -->
+                <div class="text-center">
+                    <h3
+                        class="text-xl font-bold text-slate-800 dark:text-slate-200 mb-4"
+                    >
+                        Attribution Chain
+                    </h3>
+                    <div class="mermaid flex justify-center">
+                        flowchart TD CAC[CAC] --> CPQL[CPQL] CPQL -->
+                        REV[Revenue] REV --> LTV[LTV] style CAC
+                        fill:#ef4444,stroke:#dc2626,color:#fff style CPQL
+                        fill:#f59e0b,stroke:#d97706,color:#fff style REV
+                        fill:#10b981,stroke:#059669,color:#fff style LTV
+                        fill:#2563eb,stroke:#3b82f6,color:#fff
+                    </div>
+                    <p class="text-sm text-slate-500 mt-4">
+                        Moving from cost-metrics to value-metrics.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <div class="text-center my-12">
+            <a
+                href="/#contact"
+                class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-full shadow-lg transition-all hover:-translate-y-1"
+            >
+                Deploy These Frameworks
+            </a>
+        </div>
+    </section>
+</BaseLayout>

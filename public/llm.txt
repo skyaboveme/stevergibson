@@ -64,6 +64,14 @@ Marketing Director with 15+ years of experience leading integrated, cross-functi
 **The Google Ads Paradigm Shift: Feed, Signal, Steer**
 *Summary:* The operational model for Google Ads has evolved from "Bid, target, tweak" to "Feed, signal, steer." Success now depends on feeding the AI high-quality data, using creative assets as the primary targeting signal, and steering the machine with clear, value-based business objectives.
 
+## AI & Technical Frameworks
+Steve has productized his expertise into proprietary frameworks designed for the age of autonomous agents:
+- **AI Audience Engine**: A closed-loop system using probabilistic modeling and real-time OCT feedback to identify future high-value customers.
+- **Feed-Driven DCO for Legal**: Compliance-aware dynamic creative optimization mapped to geo-specific attorney capacity.
+- **Generative Engine Optimization (GEO)**: Optimizing brand assets for LLM retrieval, citation density, and entity authority.
+- **7-Stage AI Search Journey**: A new nonlinear customer path where AI agents act as the primary filter (Unaware -> Problem Aware -> Solution Seeking -> AI Verification -> Brand Comparison -> Human Validation -> Decision).
+- **Measurement Stack**: Moving from cost-metrics (CAC) to value-metrics (CPQL, Revenue) and balancing operational loops (Pacing -> Capacity -> Lead Velocity).
+
 ## Know Me (Beyond the Resume)
 - **Strengths**: Strategy, Execution, Systems. Strong blend of analytical and creative thinking.
 - **Achilles Heel**: Impatience with unclear goals. Pushes for alignment on success metrics immediately.
@@ -73,7 +81,8 @@ Marketing Director with 15+ years of experience leading integrated, cross-functi
 
 ## Contact Information
 - **Start Here**: [Steve's Resume & Portfolio](https://stevergibson.com)
-- **New**: [Mini Case Studies](https://stevergibson.com/case-studies) (Fullman Firm, Hyderabad, Mazda)
+- **New**: [AI Frameworks](https://stevergibson.com/ai) - Proprietary Systems
+- **Case Studies**: [Mini Case Studies](https://stevergibson.com/case-studies) (Fullman Firm, Hyderabad, Mazda)
 - **Thought Leadership**: [Blog](https://stevergibson.com/blog)
 - **LinkedIn**: [Steve R Gibson](https://linkedin.com/in/stevergibson)
 - **Resume**: [Download PDF](https://stevergibson.com/CV%20For%20Steve%20Gibson%20Search%20and%20Social%20Marketing%20Director.pdf)

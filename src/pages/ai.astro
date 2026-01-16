@@ -13,6 +13,7 @@ const description =
         mermaid.initialize({
             startOnLoad: true,
             theme: "base",
+            securityLevel: "loose",
             themeVariables: {
                 darkMode: true,
                 primaryColor: "#2563eb", // blue-600
@@ -149,19 +150,19 @@ const description =
                     class="bg-slate-900 rounded-xl p-6 overflow-x-auto shadow-inner"
                 >
                     <div class="mermaid flex justify-center">
-                        flowchart TD CAC[CAC<br /><span
+                        flowchart TD CAC["CAC<br /><span
                             style="font-weight:normal; font-size:10px"
                             >Cost Per Lead</span
-                        >] --> CPQL[CPQL<br /><span
+                        >"] --> CPQL["CPQL<br /><span
                             style="font-weight:normal; font-size:10px"
                             >Qualified Cost</span
-                        >] CPQL --> REV[Revenue<br /><span
+                        >"] CPQL --> REV["Revenue<br /><span
                             style="font-weight:normal; font-size:10px"
                             >Actual Cash</span
-                        >] REV --> LTV[LTV<br /><span
+                        >"] REV --> LTV["LTV<br /><span
                             style="font-weight:normal; font-size:10px"
                             >Lifetime Profit</span
-                        >] style CAC fill:#ef4444,stroke:#dc2626,color:#fff
+                        >"] style CAC fill:#ef4444,stroke:#dc2626,color:#fff
                         style CPQL fill:#f59e0b,stroke:#d97706,color:#fff style
                         REV fill:#10b981,stroke:#059669,color:#fff style LTV
                         fill:#2563eb,stroke:#3b82f6,color:#fff
@@ -366,28 +367,28 @@ const description =
                             class="bg-slate-900 rounded-xl p-6 overflow-x-auto shadow-inner"
                         >
                             <div class="mermaid flex justify-center">
-                                flowchart TD A[1. Unaware<br /><span
+                                flowchart TD A["1. Unaware<br /><span
                                     style="font-weight:normal; font-size:12px"
                                     >Algorithmic Feed Exposure</span
-                                >] --> B[2. Problem Aware<br /><span
+                                >"] --> B["2. Problem Aware<br /><span
                                     style="font-weight:normal; font-size:12px"
                                     >Natural Language Query</span
-                                >] B --> C[3. Solution Seeking<br /><span
+                                >"] B --> C["3. Solution Seeking<br /><span
                                     style="font-weight:normal; font-size:12px"
                                     >AI Synthesis & RAG</span
-                                >] C --> D[4. AI Verification<br /><span
+                                >"] C --> D["4. AI Verification<br /><span
                                     style="font-weight:normal; font-size:12px"
                                     >Agent Checks Reviews/Trust</span
-                                >] D --> E[5. Brand Comparison<br /><span
+                                >"] D --> E["5. Brand Comparison<br /><span
                                     style="font-weight:normal; font-size:12px"
                                     >Feature Matrix Generation</span
-                                >] E --> F[6. Human Validation<br /><span
+                                >"] E --> F["6. Human Validation<br /><span
                                     style="font-weight:normal; font-size:12px"
                                     >Cultural & Vibe Check</span
-                                >] F --> G[7. Decision<br /><span
+                                >"] F --> G["7. Decision<br /><span
                                     style="font-weight:normal; font-size:12px"
                                     >Conversion</span
-                                >] style A
+                                >"] style A
                                 fill:#1e293b,stroke:#334155,color:#fff style B
                                 fill:#1e293b,stroke:#334155,color:#fff style C
                                 fill:#1e293b,stroke:#334155,color:#fff style D

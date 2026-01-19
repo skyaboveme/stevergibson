@@ -1,15 +1,15 @@
 ---
-import Search from "./Search.astro";
+
 ---
 
 <header
   class="sticky top-0 z-50 bg-white/90 dark:bg-slate-950/90 backdrop-blur-sm border-b border-slate-200/50 dark:border-slate-800/50 py-4 px-4 sm:px-8 w-full"
 >
-  <div class="max-w-5xl mx-auto flex justify-between items-center">
+  <div class="max-w-5xl mx-auto flex justify-center items-center relative">
     <!-- Mobile Menu Button -->
     <button
       id="mobile-menu-btn"
-      class="md:hidden p-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
+      class="md:hidden p-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors absolute left-0"
       aria-label="Toggle menu"
     >
       <svg
@@ -63,18 +63,8 @@ import Search from "./Search.astro";
             >AI</a
           >
         </li>
-        <li
-          class="pl-4 border-l border-slate-200 dark:border-slate-800 flex items-center"
-        >
-          <Search />
-        </li>
       </ul>
     </nav>
-
-    <!-- Mobile Search Icon (Separate from menu) -->
-    <div class="md:hidden flex items-center">
-      <Search />
-    </div>
   </div>
 
   <!-- Mobile Menu Dropdown -->

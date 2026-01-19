@@ -1,0 +1,246 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import profileImage from "../assets/profile.jpg";
+
+const pageTitle = "Media Kit & Recruiter Resources | Steve R Gibson";
+const description =
+    "Resources for recruiters, hiring managers, and conference organizers. Download resume, high-res headshots, and bio.";
+---
+
+<BaseLayout title={pageTitle} description={description}>
+    <section class="max-w-4xl mx-auto space-y-12">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-slate-900 dark:text-white mb-4">
+                Recruiter & Media Resources
+            </h1>
+            <p
+                class="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto"
+            >
+                Everything you need to evaluate, hire, or feature Steve R
+                Gibson.
+            </p>
+        </header>
+
+        <div class="grid md:grid-cols-2 gap-12">
+            <!-- Downloads Section -->
+            <div class="space-y-8">
+                <section
+                    class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800"
+                >
+                    <h2
+                        class="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6 text-blue-600"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                            ></path>
+                        </svg>
+                        Documents
+                    </h2>
+                    <div class="space-y-4">
+                        <a
+                            href="/CV For Steve Gibson Search and Social Marketing Director.pdf"
+                            download
+                            class="flex items-center justify-between p-4 bg-white dark:bg-slate-950 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-blue-500 transition-colors group"
+                        >
+                            <div>
+                                <div
+                                    class="font-bold text-slate-900 dark:text-white"
+                                >
+                                    Resume / CV
+                                </div>
+                                <div class="text-sm text-slate-500">
+                                    PDF Format • Last Updated Jan 2026
+                                </div>
+                            </div>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-5 w-5 text-slate-400 group-hover:text-blue-500"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                                ></path>
+                            </svg>
+                        </a>
+                        <a
+                            href="/llm.txt"
+                            target="_blank"
+                            class="flex items-center justify-between p-4 bg-white dark:bg-slate-950 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-blue-500 transition-colors group"
+                        >
+                            <div>
+                                <div
+                                    class="font-bold text-slate-900 dark:text-white"
+                                >
+                                    llm.txt Manifest
+                                </div>
+                                <div class="text-sm text-slate-500">
+                                    Markdown file for AI Agents
+                                </div>
+                            </div>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-5 w-5 text-slate-400 group-hover:text-blue-500"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                ></path>
+                            </svg>
+                        </a>
+                    </div>
+                </section>
+
+                <section
+                    class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800"
+                >
+                    <h2
+                        class="text-2xl font-bold text-slate-900 dark:text-white mb-6"
+                    >
+                        Fast Facts
+                    </h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-4">
+                            <span
+                                class="font-bold text-slate-900 dark:text-white w-24 shrink-0"
+                                >Role:</span
+                            >
+                            <span class="text-slate-600 dark:text-slate-300"
+                                >Marketing Director, VP Marketing, Head of
+                                Growth</span
+                            >
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <span
+                                class="font-bold text-slate-900 dark:text-white w-24 shrink-0"
+                                >Focus:</span
+                            >
+                            <span class="text-slate-600 dark:text-slate-300"
+                                >Paid Search, Programmatic, AI Strategy, Team
+                                Leadership</span
+                            >
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <span
+                                class="font-bold text-slate-900 dark:text-white w-24 shrink-0"
+                                >Location:</span
+                            >
+                            <span class="text-slate-600 dark:text-slate-300"
+                                >Remote / Hybrid (Available for Travel)</span
+                            >
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <span
+                                class="font-bold text-slate-900 dark:text-white w-24 shrink-0"
+                                >Status:</span
+                            >
+                            <span
+                                class="text-green-600 font-bold bg-green-100 dark:bg-green-900/30 px-2 py-0.5 rounded text-sm"
+                                >Open to Opportunities</span
+                            >
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Bios Section -->
+            <div class="space-y-8">
+                <div
+                    class="bg-white dark:bg-slate-950 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm"
+                >
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-16 h-16 rounded-full overflow-hidden">
+                            <Image
+                                src={profileImage}
+                                alt="Steve R Gibson Headshot"
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div>
+                            <h2
+                                class="text-xl font-bold text-slate-900 dark:text-white"
+                            >
+                                Short Bio
+                            </h2>
+                            <p class="text-sm text-slate-500">
+                                For Intros & Speaking
+                            </p>
+                        </div>
+                        <button
+                            class="ml-auto text-blue-600 text-sm font-medium hover:text-blue-700"
+                            onclick="navigator.clipboard.writeText(this.parentElement.nextElementSibling.innerText)"
+                            >Copy</button
+                        >
+                    </div>
+                    <p
+                        class="text-slate-600 dark:text-slate-300 leading-relaxed text-sm"
+                    >
+                        Steve R Gibson is a Marketing Director with 15+ years of
+                        experience managing $90M+ in ad spend for brands like
+                        Hyundai, Kia, and Fullman Firm. He specializes in
+                        value-based bidding, AI-driven audience engines, and
+                        bridging the gap between creative strategy and technical
+                        execution.
+                    </p>
+                </div>
+
+                <div
+                    class="bg-white dark:bg-slate-950 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm"
+                >
+                    <div class="flex items-center gap-4 mb-6">
+                        <div>
+                            <h2
+                                class="text-xl font-bold text-slate-900 dark:text-white"
+                            >
+                                Professional Summary
+                            </h2>
+                            <p class="text-sm text-slate-500">For Profiles</p>
+                        </div>
+                        <button
+                            class="ml-auto text-blue-600 text-sm font-medium hover:text-blue-700"
+                            onclick="navigator.clipboard.writeText(this.parentElement.nextElementSibling.innerText)"
+                            >Copy</button
+                        >
+                    </div>
+                    <p
+                        class="text-slate-600 dark:text-slate-300 leading-relaxed text-sm"
+                    >
+                        Steve R Gibson is a Marketing Director and Growth
+                        Strategist who builds "Engineered Marketing Systems."
+                        Unlike traditional marketers who focus on vanity
+                        metrics, Steve combines financial modeling with advanced
+                        ad-tech (Google Ads, DV360, Meta) to drive contribution
+                        margin and revenue velocity.
+                        <br /><br />
+                        Currently leading marketing at Fullman Firm, he reduced CAC
+                        by 17% while scaling volume. Previously, as VP Group Director
+                        at Canvas Worldwide, he led a 15-person team managing comprehensive
+                        digital strategies for Hyundai and Kia. He is an advocate
+                        for "AI-First" marketing and publishes regularly on the intersection
+                        of Large Language Models and Paid Media.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</BaseLayout>

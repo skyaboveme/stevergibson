@@ -5,39 +5,7 @@ const currentYear = new Date().getFullYear();
 <footer
     class="py-8 px-4 text-center text-slate-500 text-sm mt-12 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800"
 >
-    <div class="max-w-xl mx-auto mb-12 text-center">
-        <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-2">
-            Join the Builders
-        </h3>
-        <p class="text-slate-600 dark:text-slate-400 mb-6">
-            Get the "Synthetic Customer" framework and other engineered
-            marketing systems delivered to your inbox.
-        </p>
-        <form
-            action="https://formspree.io/f/YOUR_FORMSPREE_ID"
-            method="POST"
-            class="flex flex-col sm:flex-row gap-2"
-        >
-            <input
-                type="email"
-                name="email"
-                placeholder="steve@example.com"
-                required
-                class="flex-1 px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none"
-            />
-            <button
-                type="submit"
-                class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg transition-colors"
-            >
-                Subscribe
-            </button>
-        </form>
-        <p class="text-xs text-slate-400 mt-4">No spam. Unsubscribe anytime.</p>
-    </div>
-
-    <div
-        class="max-w-5xl mx-auto flex flex-col items-center pt-8 border-t border-slate-200 dark:border-slate-800"
-    >
+    <div class="max-w-5xl mx-auto flex flex-col items-center">
         <p>&copy; {currentYear} Steve R Gibson. All rights reserved.</p>
         <div class="mt-4 flex space-x-4">
             <a

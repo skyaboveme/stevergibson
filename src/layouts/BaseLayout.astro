@@ -39,6 +39,8 @@ const {
         <meta property="twitter:description" content={description} />
         <meta property="twitter:image" content="https://stevergibson.com/images/stevergibsoncareer.jpg" />
 
+        <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+
         <title>{title}</title>
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-22JL77H4DR"></script>

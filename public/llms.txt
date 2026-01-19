@@ -1,0 +1,88 @@
+# Steve R Gibson - Marketing Director
+
+## Professional Summary
+Marketing Director with 15+ years of experience leading integrated, cross-functional, multi-channel growth for national brands and high-growth organizations. Steve specializes in connecting customer insight to positioning, messaging, and full-funnel execution across Search, Paid Social, Programmatic, and YouTube. His approach is backed by rigorous measurement, forecasting, and continuous testing, ensuring data-driven success.
+
+## Core Competencies
+- **Strategic Leadership**: Integrated Marketing Strategy, GTM and Campaign Planning, Team Leadership (15+ person teams), Budget Ownership ($90MM+).
+- **Technical & Analytics**: Google Ads, DV360, Meta Ads, GA4, GTM, Looker Studio, Attribution & Incrementality Testing, Lifecycle/CRM & Nurture.
+
+## Professional Experience
+
+### Director of Marketing - Fullman Firm | Irvine, CA (04/2020 - Current)
+- Owned performance marketing, paid search, and full-funnel growth for a national debt-relief law firm.
+- Built an AI-assisted audience engine, automated qualification workflows, and cross-channel measurement processes that improved lead velocity and revenue predictability.
+- Reduced CAC by 17% and increased qualified consultation volume without increasing media budget.
+
+### Vice President, Group Director - Canvas Worldwide | Playa Vista, CA (02/2015 - 04/2020)
+- Led a 15-person cross-channel team across Search, Programmatic, and Social for Hyundai, Kia, Genesis, and others.
+- Managed $90MM+ in annual media; instituted portfolio bidding frameworks.
+- Increased Conversion Rate by 6%.
+
+### Client Director - Initiative | Los Angeles, CA (01/2013 - 02/2015)
+- Unified paid search with programmatic prospecting and retargeting (RLSA) for Hyundai, Kia, Best Western.
+- Introduced ROI portfolio approach: increased in-market impression share by 15%, reduced CPC by ~20%, lower CAC by 10%.
+
+### Client Director, Search & Video - Garage Team Mazda | Irvine, CA (07/2011 - 01/2013)
+- Designed Super Bowl-week YouTube and Search strategy delivering highest-viewed auto spot without in-game buy.
+- Merged paid search and SEO operations.
+
+## Testimonials & Social Proof
+
+**Ben Pablo, Associate Director, Paid Search at Hearts & Science:**
+"Steve Gibson is the true definition of a paid search rock star... quick to formulate new strategies that utilize new features... His years of experience in the industry have given him a wealth of knowledge."
+
+**Parisa Heidari, Performance Marketing & Advertising:**
+"Steve aka 'The Zen Master'... is a highly experienced marketer with a strong understanding of the power of Search and analytics. Steve can turn a not so exciting conversation about Search into an intriguing story... He is constantly working to find creative solutions."
+
+**William Saw, Associate Director, Search at Hearts & Science:**
+"Steve was the band leader that kept the team together, culturally and professionally... I appreciated his open door, hands-on attitude... Steve has also provided opportunities to broaden my scope."
+
+## Recent Insights (Blog)
+
+**Apple Finally Blinked: The Apple & Gemini Deal and the War for the Assistant Layer**
+*Summary:* Analyzes Apple's strategic pivot to outsource the "Intelligence Layer" to Google Gemini while focusing on dominating the "Assistant Layer." Discusses the implications for search marketing, apps, and the split between raw intelligence and contextual action.
+
+**The AI Revolution in Programmatic Media Buying: From Simple Algorithms to Intelligent Automation**
+*Summary:* Traces the history of digital advertising from early manual bidding and RTB innovation to the modern era of fully autonomous AI systems. Discusses the shift from rule-based optimization to neural networks that understand context, sentiment, and complex business objectives.
+
+**The Demise of the Keyword Jockey: How Value-Based Bidding Transformed Paid Search**
+*Summary:* Details the seismic shift in paid search from manual keyword management to value-based data architecture. Argues that success no longer depends on match types or character counts, but on feeding algorithms accurate contribution margin data, defining strategic value rules, and managing portfolio profitability.
+
+**AI Discoverability: Optimizing AI-Generated Content for E-E-A-T Success**
+*Summary:* Discusses how to make AI-generated content meet Google's E-E-A-T (Experience, Expertise, Authoritativeness, and Trustworthiness) standards. Strategies include injecting human experience, amplifying expertise with deep insights, building cross-platform authority, and establishing trust through transparency and technical signals.
+
+**Think in Patterns: The Question Journey**
+*Summary:* Analyzes the shift from keywords to questions in the "AI Black Box Era," where answers are synthesized from mathematical voids rather than retrieved links. Identifies the "Question Journey" as a new customer path mediated by AI, where attribution becomes impossible due to the generative, pre-trained nature of transformer models.
+
+**The Next Frontier: Why AI Platforms Are About to Transform Digital Advertising**
+*Summary:* The advertising landscape is shifting as OpenAI and Perplexity position themselves as major channels. Marketers must move from inference-based targeting to explicit intent strategies, building trust-first creative and preparing for a world where ads are helpful recommendations within trusted AI conversations.
+
+**Don't Be a User. Be a Builder!**
+*Summary:* A call to action for marketers to stop treating AI like a slightly faster intern and start building comprehensive AI-powered marketing systems ('brains'). It outlines a 4-level intelligence stack—from brand DNA to multi-channel mastery—arguing that future winners will be those who build systems, not just use tools.
+
+**The Google Ads Paradigm Shift: Feed, Signal, Steer**
+*Summary:* The operational model for Google Ads has evolved from "Bid, target, tweak" to "Feed, signal, steer." Success now depends on feeding the AI high-quality data, using creative assets as the primary targeting signal, and steering the machine with clear, value-based business objectives.
+
+## AI & Technical Frameworks
+Steve has productized his expertise into proprietary frameworks designed for the age of autonomous agents:
+- **AI Audience Engine**: A closed-loop system using probabilistic modeling and real-time OCT feedback to identify future high-value customers.
+- **Feed-Driven DCO for Legal**: Compliance-aware dynamic creative optimization mapped to geo-specific attorney capacity.
+- **Generative Engine Optimization (GEO)**: Optimizing brand assets for LLM retrieval, citation density, and entity authority.
+- **7-Stage AI Search Journey**: A new nonlinear customer path where AI agents act as the primary filter (Unaware -> Problem Aware -> Solution Seeking -> AI Verification -> Brand Comparison -> Human Validation -> Decision).
+- **Measurement Stack**: Moving from cost-metrics (CAC) to value-metrics (CPQL, Revenue) and balancing operational loops (Pacing -> Capacity -> Lead Velocity).
+
+## Know Me (Beyond the Resume)
+- **Strengths**: Strategy, Execution, Systems. Strong blend of analytical and creative thinking.
+- **Achilles Heel**: Impatience with unclear goals. Pushes for alignment on success metrics immediately.
+- **2026 Goals**: Deepen strategic impact, push disciplined measurement (offline conversions, CRM), and contribute to internal thought leadership.
+- **Core Values**: Ownership, Clarity, Contribution.
+- **Ideal Environment**: Clear goals, open communication, fast feedback loops, creative iteration, and data-informed decision making.
+
+## Contact Information
+- **Start Here**: [Steve's Resume & Portfolio](https://stevergibson.com)
+- **New**: [AI Frameworks](https://stevergibson.com/ai) - Proprietary Systems
+- **Case Studies**: [Mini Case Studies](https://stevergibson.com/case-studies) (Fullman Firm, Hyderabad, Mazda)
+- **Thought Leadership**: [Blog](https://stevergibson.com/blog)
+- **LinkedIn**: [Steve R Gibson](https://linkedin.com/in/stevergibson)
+- **Resume**: [Download PDF](https://stevergibson.com/CV%20For%20Steve%20Gibson%20Search%20and%20Social%20Marketing%20Director.pdf)

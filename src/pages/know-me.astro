@@ -21,53 +21,133 @@ const description =
         <article class="prose dark:prose-invert max-w-none space-y-8">
             <section>
                 <h2
-                    class="text-2xl font-bold text-slate-800 dark:text-slate-100 border-b border-slate-200 dark:border-slate-800 pb-2 mb-4"
+                    class="text-2xl font-bold text-slate-800 dark:text-slate-100 border-b border-slate-200 dark:border-slate-800 pb-2 mb-8 reveal"
                 >
                     Experience in Media
                 </h2>
-                <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
-                    I have spent my career leading paid media strategy,
-                    execution, and optimization across search, social,
-                    programmatic, and video. My experience spans both brand and
-                    performance objectives with budgets ranging from high-growth
-                    venture accounts to multi-million dollar national media.
-                </p>
 
                 <div
-                    class="grid grid-cols-2 md:grid-cols-3 gap-4 my-8 not-prose"
+                    class="relative border-l-2 border-slate-200 dark:border-slate-800 ml-4 space-y-12 not-prose"
                 >
-                    {
-                        [
-                            "Mazda",
-                            "Hyundai",
-                            "Kia",
-                            "Best Western",
-                            "Genesis",
-                            "DPSG",
-                            "Annapurna",
-                            "Breville",
-                            "Heineken",
-                            "Lexington Law",
-                            "Fullman Firm",
-                            "Toshiba",
-                        ].map((brand) => (
-                            <div class="flex items-center justify-center p-6 bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wider text-sm hover:text-slate-900 dark:hover:text-white hover:border-slate-200 dark:hover:border-slate-700 transition-all select-none">
-                                {brand}
-                            </div>
-                        ))
-                    }
-                </div>
+                    <!-- Fullman Firm -->
+                    <div class="relative pl-8 reveal">
+                        <div
+                            class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-blue-600 border-4 border-white dark:border-slate-950"
+                        >
+                        </div>
+                        <h3
+                            class="text-xl font-bold text-slate-800 dark:text-slate-100"
+                        >
+                            Director of Marketing
+                        </h3>
+                        <div class="text-lg text-blue-600 font-medium mb-1">
+                            Fullman Firm
+                        </div>
+                        <div
+                            class="text-sm text-slate-500 dark:text-slate-400 mb-4"
+                        >
+                            04/2020 - Current
+                        </div>
+                        <p class="text-slate-600 dark:text-slate-300">
+                            Owned performance marketing, paid search, and
+                            full-funnel growth for a national debt-relief law
+                            firm. Built an AI-assisted audience engine and
+                            reduced CAC by 17%.
+                        </p>
+                    </div>
 
-                <p
-                    class="text-slate-600 dark:text-slate-300 leading-relaxed mt-4"
-                >
-                    I have planned and bought across Google Ads (Search, PMax,
-                    YouTube, Display), Meta (Facebook and Instagram), DV360 and
-                    programmatic platforms, as well as connected TV, OTT, Print,
-                    OOH media, and radio. On several accounts I owned the full
-                    funnel including creative testing, landing page improvement,
-                    analytics, attribution, CRM integration, and pacing.
-                </p>
+                    <!-- Canvas Worldwide -->
+                    <div class="relative pl-8 reveal">
+                        <div
+                            class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700 border-4 border-white dark:border-slate-950"
+                        >
+                        </div>
+                        <h3
+                            class="text-xl font-bold text-slate-800 dark:text-slate-100"
+                        >
+                            VP, Group Director
+                        </h3>
+                        <div class="text-lg text-blue-600 font-medium mb-1">
+                            Canvas Worldwide
+                        </div>
+                        <div
+                            class="text-sm text-slate-500 dark:text-slate-400 mb-4"
+                        >
+                            02/2015 - 04/2020
+                        </div>
+                        <p class="text-slate-600 dark:text-slate-300">
+                            Led a 15-person cross-channel team for Hyundai &
+                            Kia. Managed $90MM+ in annual media and improved
+                            conversion rates by 6%.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span
+                                class="px-2 py-1 bg-slate-100 dark:bg-slate-800 text-xs text-slate-500 rounded"
+                                >Hyundai</span
+                            >
+                            <span
+                                class="px-2 py-1 bg-slate-100 dark:bg-slate-800 text-xs text-slate-500 rounded"
+                                >Kia</span
+                            >
+                            <span
+                                class="px-2 py-1 bg-slate-100 dark:bg-slate-800 text-xs text-slate-500 rounded"
+                                >Genesis</span
+                            >
+                        </div>
+                    </div>
+
+                    <!-- Initiative -->
+                    <div class="relative pl-8 reveal">
+                        <div
+                            class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700 border-4 border-white dark:border-slate-950"
+                        >
+                        </div>
+                        <h3
+                            class="text-xl font-bold text-slate-800 dark:text-slate-100"
+                        >
+                            Client Director
+                        </h3>
+                        <div class="text-lg text-blue-600 font-medium mb-1">
+                            Initiative
+                        </div>
+                        <div
+                            class="text-sm text-slate-500 dark:text-slate-400 mb-4"
+                        >
+                            01/2013 - 02/2015
+                        </div>
+                        <p class="text-slate-600 dark:text-slate-300">
+                            Unified paid search with programmatic for Best
+                            Western and Dr Pepper Snapple Group. Reduced CPC by
+                            20% via portfolio bidding strategies.
+                        </p>
+                    </div>
+
+                    <!-- Garage Team Mazda -->
+                    <div class="relative pl-8 reveal">
+                        <div
+                            class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700 border-4 border-white dark:border-slate-950"
+                        >
+                        </div>
+                        <h3
+                            class="text-xl font-bold text-slate-800 dark:text-slate-100"
+                        >
+                            Client Director, Search & Video
+                        </h3>
+                        <div class="text-lg text-blue-600 font-medium mb-1">
+                            Garage Team Mazda
+                        </div>
+                        <div
+                            class="text-sm text-slate-500 dark:text-slate-400 mb-4"
+                        >
+                            07/2011 - 01/2013
+                        </div>
+                        <p class="text-slate-600 dark:text-slate-300">
+                            Designed Super Bowl-week YouTube strategy. Merged
+                            paid search and SEO operations for cross-channel
+                            efficiency.
+                        </p>
+                    </div>
+                </div>
             </section>
 
             <section>

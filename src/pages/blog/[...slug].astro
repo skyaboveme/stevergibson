@@ -16,7 +16,18 @@ const { Content } = await post.render();
 ---
 
 <BaseLayout title={post.data.title} description={post.data.description}>
-    <article class="max-w-3xl mx-auto py-8">
+    <!-- Reading Progress Bar -->
+    <div
+        class="fixed top-0 left-0 w-full z-50 h-1 bg-transparent pointer-events-none"
+    >
+        <div
+            id="reading-progress"
+            class="h-full bg-blue-600 w-0 transition-all duration-150 ease-out"
+        >
+        </div>
+    </div>
+
+    <article class="max-w-3xl mx-auto py-8 relative">
         <header class="mb-10 text-center">
             <div class="text-sm text-slate-500 mb-4">
                 <time datetime={post.data.pubDate.toISOString()}>
@@ -53,3 +64,21 @@ const { Content } = await post.render();
         </div>
     </article>
 </BaseLayout>
+
+<script>
+    document.addEventListener("astro:page-load", () => {
+        const progressBar = document.getElementById("reading-progress");
+        const article = document.querySelector("article");
+
+        if (progressBar && article) {
+            const updateProgress = () => {
+                const totalHeight = article.clientHeight - window.innerHeight;
+                const progress = (window.scrollY / totalHeight) * 100;
+                progressBar.style.width = `${Math.min(Math.max(progress, 0), 100)}%`;
+            };
+
+            window.addEventListener("scroll", updateProgress);
+            updateProgress(); // Initial check
+        }
+    });
+</script>

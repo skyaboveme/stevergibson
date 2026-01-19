@@ -46,6 +46,38 @@ const pageTitle = "Steve R Gibson - Marketing Director";
 					Contact Me
 				</a>
 			</div>
+
+			<div
+				class="mt-12 grid grid-cols-3 gap-6 border-t border-slate-200 dark:border-slate-800 pt-8"
+			>
+				<div>
+					<span
+						class="block text-3xl font-bold text-slate-900 dark:text-white"
+						>15+</span
+					>
+					<span class="text-sm text-slate-500 dark:text-slate-400"
+						>Years Exp</span
+					>
+				</div>
+				<div>
+					<span
+						class="block text-3xl font-bold text-slate-900 dark:text-white"
+						>$90M+</span
+					>
+					<span class="text-sm text-slate-500 dark:text-slate-400"
+						>Ad Spend</span
+					>
+				</div>
+				<div>
+					<span
+						class="block text-3xl font-bold text-slate-900 dark:text-white"
+						>40%</span
+					>
+					<span class="text-sm text-slate-500 dark:text-slate-400"
+						>Avg Growth</span
+					>
+				</div>
+			</div>
 		</div>
 
 		<div class="flex-shrink-0 w-48 h-48 sm:w-80 sm:h-80 relative">
@@ -99,24 +131,56 @@ const pageTitle = "Steve R Gibson - Marketing Director";
 				<h4 class="font-semibold text-lg mb-4 text-blue-600">
 					Technical & Analytics
 				</h4>
-				<ul class="space-y-2 text-slate-700 dark:text-slate-300">
-					<li class="flex items-center">
-						<span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"
-						></span>Google Ads, DV360, Meta Ads
-					</li>
-					<li class="flex items-center">
-						<span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"
-						></span>GA4, GTM, Looker Studio
-					</li>
-					<li class="flex items-center">
-						<span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"
-						></span>Attribution & Incrementality Testing
-					</li>
-					<li class="flex items-center">
-						<span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"
-						></span>Lifecycle/CRM & Nurture
-					</li>
-				</ul>
+				<div class="grid grid-cols-2 gap-4">
+					<div
+						class="flex items-center p-3 rounded-lg bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800"
+					>
+						<span
+							class="font-bold text-slate-700 dark:text-slate-200"
+							>Google Ads</span
+						>
+					</div>
+					<div
+						class="flex items-center p-3 rounded-lg bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800"
+					>
+						<span
+							class="font-bold text-slate-700 dark:text-slate-200"
+							>GA4</span
+						>
+					</div>
+					<div
+						class="flex items-center p-3 rounded-lg bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800"
+					>
+						<span
+							class="font-bold text-slate-700 dark:text-slate-200"
+							>Meta Ads</span
+						>
+					</div>
+					<div
+						class="flex items-center p-3 rounded-lg bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800"
+					>
+						<span
+							class="font-bold text-slate-700 dark:text-slate-200"
+							>DV360</span
+						>
+					</div>
+					<div
+						class="flex items-center p-3 rounded-lg bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800"
+					>
+						<span
+							class="font-bold text-slate-700 dark:text-slate-200"
+							>Amazon DSP</span
+						>
+					</div>
+					<div
+						class="flex items-center p-3 rounded-lg bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800"
+					>
+						<span
+							class="font-bold text-slate-700 dark:text-slate-200"
+							>Microsoft</span
+						>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -445,3 +509,55 @@ const pageTitle = "Steve R Gibson - Marketing Director";
 		</div>
 	</section>
 </BaseLayout>
+
+<script>
+	const animateValue = (
+		obj: HTMLElement,
+		start: number,
+		end: number,
+		duration: number,
+	) => {
+		let startTimestamp: number | null = null;
+		const step = (timestamp: number) => {
+			if (!startTimestamp) startTimestamp = timestamp;
+			const progress = Math.min(
+				(timestamp - startTimestamp) / duration,
+				1,
+			);
+			obj.innerHTML = Math.floor(
+				progress * (end - start) + start,
+			).toString();
+			if (progress < 1) {
+				window.requestAnimationFrame(step);
+			} else {
+				// Restore the plus sign or percent if needed
+				if (obj.dataset.suffix) obj.innerHTML += obj.dataset.suffix;
+			}
+		};
+		window.requestAnimationFrame(step);
+	};
+
+	const observer = new IntersectionObserver((entries) => {
+		entries.forEach((entry) => {
+			if (entry.isIntersecting) {
+				entry.target
+					.querySelectorAll("span.block")
+					.forEach((span: Element) => {
+						// Start animation
+						const rawText = span.textContent || "0";
+						const endValue = parseInt(rawText.replace(/\D/g, ""));
+						const suffix = rawText.replace(/[0-9]/g, "");
+						const el = span as HTMLElement;
+						el.dataset.suffix = suffix;
+						animateValue(el, 0, endValue, 1500);
+					});
+				observer.unobserve(entry.target);
+			}
+		});
+	});
+
+	const statsSection = document.querySelector(".grid-cols-3");
+	if (statsSection) {
+		observer.observe(statsSection);
+	}
+</script>

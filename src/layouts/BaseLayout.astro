@@ -34,8 +34,22 @@ const {
                 "jobTitle": "Marketing Director",
                 "url": "https://stevergibson.com",
                 "sameAs": ["https://www.linkedin.com/in/stevergibson/"],
-                "description": "Marketing Director with 15+ years leading integrated, cross-functional, multi-channel growth for national brands."
-            }
+                "description": "Marketing Director with 15+ years leading integrated, cross-functional, multi-channel growth for national brands.",
+                "knowsAbout": ["Paid Search", "Programmatic Advertising", "Google Ads", "GA4", "Marketing Strategy", "AI in Marketing"],
+                "alumniOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Fullman Firm"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Canvas Worldwide"
+                    }
+                ],
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Open to Work"
+                }
         </script>
     </head>
     <body
@@ -46,5 +60,41 @@ const {
             <slot />
         </main>
         <Footer />
+        <script>
+            // Scroll Reveal Observer
+            const revealObserver = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("visible");
+                            revealObserver.unobserve(entry.target);
+                        }
+                    });
+                },
+                { threshold: 0.1 },
+            );
+
+            // Observe all elements with .reveal class
+            // Use MutationObserver to handle client-side navigation updates if needed,
+            // or re-run on astro:page-load
+            document.addEventListener("astro:page-load", () => {
+                document.querySelectorAll(".reveal").forEach((el) => {
+                    revealObserver.observe(el);
+                });
+            });
+        </script>
+        <style is:global>
+            .reveal {
+                opacity: 0;
+                transform: translateY(20px);
+                transition:
+                    opacity 0.8s ease-out,
+                    transform 0.8s ease-out;
+            }
+            .reveal.visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        </style>
     </body>
 </html>

@@ -1,0 +1,57 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import GrowthCalculator from "../components/ui/GrowthCalculator.jsx";
+
+const pageTitle = "Growth Calculator | Steve R Gibson";
+const description =
+    "Calculate the revenue impact of an integrated growth system. See the 'Gibson Effect' on your ad spend.";
+---
+
+<BaseLayout title={pageTitle} description={description}>
+    <section class="max-w-4xl mx-auto space-y-12 mb-20 text-center">
+        <header class="space-y-6 max-w-2xl mx-auto">
+            <h1
+                class="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white"
+            >
+                The Growth Engine
+            </h1>
+            <p class="text-xl text-slate-600 dark:text-slate-400">
+                Marketing isn't an expense—it's math. See what happens when you
+                treat paid media as an integrated system rather than just ad
+                buying.
+            </p>
+        </header>
+
+        <div class="py-8">
+            <GrowthCalculator client:load />
+        </div>
+
+        <article class="prose dark:prose-invert max-w-2xl mx-auto text-left">
+            <h3>How this works</h3>
+            <p>
+                Throughout my career—from startups to Fortune 500 brands like
+                Hyundai—I’ve averaged a <strong>30% improvement</strong> in campaign
+                efficiency.
+            </p>
+            <p>This isn't magic. It comes from:</p>
+            <ul>
+                <li>
+                    <strong>Triangulating Data:</strong> Connecting ad platforms to
+                    CRM outcomes (signed deals), not just clicks.
+                </li>
+                <li>
+                    <strong>Funnel Mechanics:</strong> Reducing friction in the intake
+                    process to improve conversion rates.
+                </li>
+                <li>
+                    <strong>Negative Logic:</strong> Aggressively filtering "junk"
+                    spend (low intent, wrong geography).
+                </li>
+            </ul>
+            <p>
+                When you fix the leaks, the same budget drives significantly
+                more revenue. That is the leverage of a true Growth Director.
+            </p>
+        </article>
+    </section>
+</BaseLayout>

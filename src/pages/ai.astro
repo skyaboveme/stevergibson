@@ -1,5 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ThinkingTerminal from "../components/ThinkingTerminal.jsx";
+import ParticleBackground from "../components/ParticleBackground.astro";
 
 const pageTitle = "Applied AI in Marketing | Steve R Gibson";
 const description =
@@ -7,6 +9,7 @@ const description =
 ---
 
 <BaseLayout title={pageTitle} description={description}>
+    <ParticleBackground />
     <!-- Mermaid JS for Diagrams -->
     <script type="module" is:inline>
         import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
@@ -48,6 +51,11 @@ const description =
                 growth.
             </p>
         </header>
+
+        <!-- Dynamic AI Simulation -->
+        <div class="reveal">
+            <ThinkingTerminal client:load />
+        </div>
 
         <!-- Framework 1: AI Audience Engine -->
         <article class="space-y-8">

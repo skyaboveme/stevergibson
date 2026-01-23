@@ -1,0 +1,185 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Uses | Steve R Gibson";
+const description =
+    "The tools I use to multiply my output. A glimpse into my AI-Native operating system.";
+---
+
+<BaseLayout title={pageTitle} description={description}>
+    <section class="max-w-3xl mx-auto space-y-12 mb-20">
+        <header class="space-y-4">
+            <h1 class="text-4xl font-bold text-slate-900 dark:text-white">
+                The Toolbox
+            </h1>
+            <p class="text-lg text-slate-600 dark:text-slate-400">
+                The hardware, software, and AI models I use to multiply output.
+                inspired by <a
+                    href="https://uses.tech/"
+                    class="underline hover:text-blue-600 transition-colors"
+                >
+                    uses.tech
+                </a>
+            </p>
+        </header>
+
+        <div class="space-y-12">
+            <!-- AI Stack -->
+            <section
+                class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800"
+            >
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="text-2xl">🤖</span>
+                    <h2
+                        class="text-2xl font-bold text-slate-900 dark:text-white"
+                    >
+                        AI Stack
+                    </h2>
+                </div>
+                <div class="grid gap-6 md:grid-cols-2">
+                    <div class="space-y-2">
+                        <h3
+                            class="font-bold text-slate-800 dark:text-slate-200"
+                        >
+                            Gemini
+                        </h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">
+                            My primary reasoning engine for complex context
+                            windows and multimodal analysis.
+                        </p>
+                    </div>
+                    <div class="space-y-2">
+                        <h3
+                            class="font-bold text-slate-800 dark:text-slate-200"
+                        >
+                            Claude
+                        </h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">
+                            The go-to for nuance, creative writing, and
+                            "human-feeling" outputs.
+                        </p>
+                    </div>
+                    <div class="space-y-2">
+                        <h3
+                            class="font-bold text-slate-800 dark:text-slate-200"
+                        >
+                            Perplexity
+                        </h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">
+                            Replaced Google Search for 90% of my research
+                            workflow.
+                        </p>
+                    </div>
+                    <div class="space-y-2">
+                        <h3
+                            class="font-bold text-slate-800 dark:text-slate-200"
+                        >
+                            Custom Agents
+                        </h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">
+                            Specialized swarms for coding, SEO analysis, and
+                            data sanitation.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Productivity -->
+            <section
+                class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800"
+            >
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="text-2xl">⚡</span>
+                    <h2
+                        class="text-2xl font-bold text-slate-900 dark:text-white"
+                    >
+                        Productivity
+                    </h2>
+                </div>
+                <div class="grid gap-6 md:grid-cols-2">
+                    <div class="space-y-2">
+                        <h3
+                            class="font-bold text-slate-800 dark:text-slate-200"
+                        >
+                            Notion
+                        </h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">
+                            The central nervous system for knowledge management
+                            and project documentation.
+                        </p>
+                    </div>
+                    <div class="space-y-2">
+                        <h3
+                            class="font-bold text-slate-800 dark:text-slate-200"
+                        >
+                            Linear
+                        </h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">
+                            Issue tracking that feels like it was designed by
+                            people who actually build software.
+                        </p>
+                    </div>
+                    <div class="space-y-2">
+                        <h3
+                            class="font-bold text-slate-800 dark:text-slate-200"
+                        >
+                            Obsidian
+                        </h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">
+                            For deep thinking, linking ideas, and local-first
+                            notes that I own forever.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dev -->
+            <section
+                class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800"
+            >
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="text-2xl">💻</span>
+                    <h2
+                        class="text-2xl font-bold text-slate-900 dark:text-white"
+                    >
+                        Dev Environment
+                    </h2>
+                </div>
+                <div class="grid gap-6 md:grid-cols-2">
+                    <div class="space-y-2">
+                        <h3
+                            class="font-bold text-slate-800 dark:text-slate-200"
+                        >
+                            Cursor
+                        </h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">
+                            VS Code fork with AI baked into the core. It’s hard
+                            to go back to a standard editor.
+                        </p>
+                    </div>
+                    <div class="space-y-2">
+                        <h3
+                            class="font-bold text-slate-800 dark:text-slate-200"
+                        >
+                            Astro
+                        </h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">
+                            The perfect framework for content-heavy sites. Zero
+                            JS by default, fast by design.
+                        </p>
+                    </div>
+                    <div class="space-y-2">
+                        <h3
+                            class="font-bold text-slate-800 dark:text-slate-200"
+                        >
+                            TailwindCSS
+                        </h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">
+                            Rapid UI development without leaving the HTML.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+</BaseLayout>

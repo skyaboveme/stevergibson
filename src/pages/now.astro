@@ -1,0 +1,105 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Now | Steve R Gibson";
+const description = "What Steve R Gibson is focused on right now.";
+const lastUpdated = "January 23, 2026";
+---
+
+<BaseLayout title={pageTitle} description={description}>
+    <section class="max-w-3xl mx-auto space-y-12 mb-20">
+        <header class="space-y-4">
+            <h1 class="text-4xl font-bold text-slate-900 dark:text-white">
+                Now
+            </h1>
+            <p class="text-lg text-slate-600 dark:text-slate-400">
+                What I’m focused on at this exact moment. inspired by <a
+                    href="https://nownownow.com/about"
+                    class="underline hover:text-blue-600 transition-colors"
+                >
+                    nownownow.com
+                </a>
+            </p>
+            <div class="text-sm text-slate-500 dark:text-slate-500 font-mono">
+                Last updated: {lastUpdated}
+            </div>
+        </header>
+
+        <article class="prose dark:prose-invert max-w-none space-y-8">
+            <div
+                class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800"
+            >
+                <div class="flex items-start gap-4">
+                    <span class="text-2xl">🛠️</span>
+                    <div>
+                        <h3
+                            class="text-xl font-bold text-slate-900 dark:text-white mt-0 mb-4"
+                        >
+                            Building Agentic Workflows
+                        </h3>
+                        <p class="text-slate-600 dark:text-slate-300">
+                            I am currently deep-diving into **multi-agent
+                            orchestration**. Moving beyond simple prompt
+                            engineering to building systems where specialized
+                            agents (Researcher, Coder, Reviewer) collaborate to
+                            solve complex tasks autonomously.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800"
+            >
+                <div class="flex items-start gap-4">
+                    <span class="text-2xl">⚡</span>
+                    <div>
+                        <h3
+                            class="text-xl font-bold text-slate-900 dark:text-white mt-0 mb-4"
+                        >
+                            Refactoring 'Yourgency'
+                        </h3>
+                        <p class="text-slate-600 dark:text-slate-300">
+                            Polishing a custom React 19 / Vite 6 CRM. I'm
+                            focusing on the **Lead Scraper** module—optimizing
+                            the Google Maps extraction logic to ensure 100% data
+                            fidelity for local business prospecting.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800"
+            >
+                <div class="flex items-start gap-4">
+                    <span class="text-2xl">📚</span>
+                    <div>
+                        <h3
+                            class="text-xl font-bold text-slate-900 dark:text-white mt-0 mb-4"
+                        >
+                            Reading
+                        </h3>
+                        <p class="text-slate-600 dark:text-slate-300">
+                            <strong>"Thinking, Fast and Slow"</strong> by Daniel Kahneman.
+                            <br />
+                            <span class="text-sm text-slate-500 block mt-2">
+                                Re-reading to better understand system-1 vs.
+                                system-2 thinking, specifically to model how
+                                LLMs trigger "reasoning" chains vs. instant
+                                token prediction.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <div class="border-t border-slate-200 dark:border-slate-800 pt-8 mt-12">
+            <p class="text-slate-500 dark:text-slate-400 italic text-sm">
+                This page is a commitment to working with the garage door up. It
+                reminds me to prioritize deep work over busy work.
+            </p>
+        </div>
+    </section>
+</BaseLayout>

@@ -1,0 +1,82 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Site Map | Steve R Gibson";
+const description = "A complete overview of the pages on SteveRGibson.com.";
+
+// Page Structure Definition
+const sections = [
+    {
+        title: "Main",
+        links: [
+            { label: "Home", url: "/" },
+            { label: "Know Me", url: "/know-me" },
+            { label: "Case Studies", url: "/case-studies" },
+            { label: "For Recruiters (Media Kit)", url: "/media-kit" },
+        ],
+    },
+    {
+        title: "Essentials",
+        links: [
+            { label: "Now", url: "/now" },
+            { label: "Uses", url: "/uses" },
+            { label: "Growth Calculator", url: "/growth" },
+        ],
+    },
+    {
+        title: "Thinking",
+        links: [
+            { label: "Blog", url: "/blog" },
+            { label: "AI & Frameworks", url: "/ai" },
+            { label: "RSS Feed", url: "/rss.xml" },
+        ],
+    },
+];
+---
+
+<BaseLayout title={pageTitle} description={description}>
+    <section class="max-w-3xl mx-auto space-y-12 mb-20">
+        <header class="space-y-4">
+            <h1 class="text-4xl font-bold text-slate-900 dark:text-white">
+                Site Map
+            </h1>
+            <p class="text-lg text-slate-600 dark:text-slate-400">
+                A directory of everything on the site.
+            </p>
+        </header>
+
+        <div class="grid md:grid-cols-2 gap-12">
+            {
+                sections.map((section) => (
+                    <div class="space-y-4">
+                        <h2 class="text-xl font-bold text-slate-900 dark:text-white border-b border-slate-200 dark:border-slate-800 pb-2">
+                            {section.title}
+                        </h2>
+                        <ul class="space-y-3">
+                            {section.links.map((link) => (
+                                <li>
+                                    <a
+                                        href={link.url}
+                                        class="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center gap-2"
+                                    >
+                                        <span class="w-1.5 h-1.5 rounded-full bg-slate-300 dark:bg-slate-700" />
+                                        {link.label}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                ))
+            }
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-slate-200 dark:border-slate-800">
+            <p class="text-sm text-slate-500 dark:text-slate-400">
+                Looking for the XML sitemap? You can find it <a
+                    href="/sitemap-index.xml"
+                    class="underline hover:text-blue-600">here</a
+                >.
+            </p>
+        </div>
+    </section>
+</BaseLayout>

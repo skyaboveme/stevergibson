@@ -6,6 +6,7 @@ import careerImage from "../assets/stevergibsoncareer.jpg";
 import Testimonials from "../components/Testimonials.astro";
 import RecentPosts from "../components/RecentPosts.astro";
 import FadeIn from "../components/ui/FadeIn.jsx";
+import CampaignIntelligenceFeed from "../components/CampaignIntelligenceFeed.jsx";
 
 const pageTitle = "Steve R Gibson - Marketing Director";
 ---
@@ -96,6 +97,11 @@ const pageTitle = "Steve R Gibson - Marketing Director";
 				height={320}
 			/>
 		</div>
+	</section>
+
+	<!-- AI Intelligence Feed -->
+	<section class="mb-12">
+		<CampaignIntelligenceFeed client:load />
 	</section>
 
 	<!-- Skills Section -->

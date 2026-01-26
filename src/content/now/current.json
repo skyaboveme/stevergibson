@@ -1,0 +1,20 @@
+{
+    "updatedAt": "January 25, 2026",
+    "focus_items": [
+        {
+            "emoji": "🛠️",
+            "title": "Building Agentic Workflows",
+            "description": "I am currently deep-diving into **multi-agent orchestration**. Moving beyond simple prompt engineering to building systems where specialized agents (Researcher, Coder, Reviewer) collaborate to solve complex tasks autonomously."
+        },
+        {
+            "emoji": "⚡",
+            "title": "Refactoring 'Yourgency'",
+            "description": "Polishing a custom React 19 / Vite 6 CRM. I'm focusing on the **Lead Scraper** module—optimizing the Google Maps extraction logic to ensure 100% data fidelity for local business prospecting."
+        },
+        {
+            "emoji": "📚",
+            "title": "Reading",
+            "description": "<strong>\"Thinking, Fast and Slow\"</strong> by Daniel Kahneman.<br /><span class=\"text-sm text-slate-500 block mt-2\">Re-reading to better understand system-1 vs. system-2 thinking, specifically to model how LLMs trigger \"reasoning\" chains vs. instant token prediction.</span>"
+        }
+    ]
+}

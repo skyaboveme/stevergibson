@@ -1,9 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getEntry } from "astro:content";
+
+const nowData = await getEntry("now", "current");
+if (!nowData) {
+    throw new Error("Could not find 'now/current' entry");
+}
+const { updatedAt, focus_items } = nowData.data;
 
 const pageTitle = "Now | Steve R Gibson";
 const description = "What Steve R Gibson is focused on right now.";
-const lastUpdated = "January 23, 2026";
 ---
 
 <BaseLayout title={pageTitle} description={description}>
@@ -21,78 +27,29 @@ const lastUpdated = "January 23, 2026";
                 </a>
             </p>
             <div class="text-sm text-slate-500 dark:text-slate-500 font-mono">
-                Last updated: {lastUpdated}
+                Last updated: {updatedAt}
             </div>
         </header>
 
         <article class="prose dark:prose-invert max-w-none space-y-8">
-            <div
-                class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800"
-            >
-                <div class="flex items-start gap-4">
-                    <span class="text-2xl">🛠️</span>
-                    <div>
-                        <h3
-                            class="text-xl font-bold text-slate-900 dark:text-white mt-0 mb-4"
-                        >
-                            Building Agentic Workflows
-                        </h3>
-                        <p class="text-slate-600 dark:text-slate-300">
-                            I am currently deep-diving into **multi-agent
-                            orchestration**. Moving beyond simple prompt
-                            engineering to building systems where specialized
-                            agents (Researcher, Coder, Reviewer) collaborate to
-                            solve complex tasks autonomously.
-                        </p>
+            {
+                focus_items.map((item) => (
+                    <div class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800">
+                        <div class="flex items-start gap-4">
+                            <span class="text-2xl">{item.emoji}</span>
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-900 dark:text-white mt-0 mb-4">
+                                    {item.title}
+                                </h3>
+                                <p
+                                    class="text-slate-600 dark:text-slate-300"
+                                    set:html={item.description}
+                                />
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div
-                class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800"
-            >
-                <div class="flex items-start gap-4">
-                    <span class="text-2xl">⚡</span>
-                    <div>
-                        <h3
-                            class="text-xl font-bold text-slate-900 dark:text-white mt-0 mb-4"
-                        >
-                            Refactoring 'Yourgency'
-                        </h3>
-                        <p class="text-slate-600 dark:text-slate-300">
-                            Polishing a custom React 19 / Vite 6 CRM. I'm
-                            focusing on the **Lead Scraper** module—optimizing
-                            the Google Maps extraction logic to ensure 100% data
-                            fidelity for local business prospecting.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div
-                class="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800"
-            >
-                <div class="flex items-start gap-4">
-                    <span class="text-2xl">📚</span>
-                    <div>
-                        <h3
-                            class="text-xl font-bold text-slate-900 dark:text-white mt-0 mb-4"
-                        >
-                            Reading
-                        </h3>
-                        <p class="text-slate-600 dark:text-slate-300">
-                            <strong>"Thinking, Fast and Slow"</strong> by Daniel Kahneman.
-                            <br />
-                            <span class="text-sm text-slate-500 block mt-2">
-                                Re-reading to better understand system-1 vs.
-                                system-2 thinking, specifically to model how
-                                LLMs trigger "reasoning" chains vs. instant
-                                token prediction.
-                            </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
+                ))
+            }
         </article>
 
         <div class="border-t border-slate-200 dark:border-slate-800 pt-8 mt-12">

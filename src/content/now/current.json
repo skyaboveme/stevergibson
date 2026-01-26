@@ -1,15 +1,15 @@
 {
-    "updatedAt": "January 25, 2026",
+    "updatedAt": "January 26, 2026",
     "focus_items": [
         {
             "emoji": "🛠️",
-            "title": "Building Agentic Workflows",
-            "description": "I am currently deep-diving into **multi-agent orchestration**. Moving beyond simple prompt engineering to building systems where specialized agents (Researcher, Coder, Reviewer) collaborate to solve complex tasks autonomously."
+            "title": "Engineering Interactive Assets",
+            "description": "I'm currently building a **Revenue Engineering Calculator** (React/Framer Motion) to visualize 'The Gibson Effect'—demonstrating how 30% efficiency gains compound into massive annual growth."
         },
         {
-            "emoji": "⚡",
-            "title": "Refactoring 'Yourgency'",
-            "description": "Polishing a custom React 19 / Vite 6 CRM. I'm focusing on the **Lead Scraper** module—optimizing the Google Maps extraction logic to ensure 100% data fidelity for local business prospecting."
+            "emoji": "✍️",
+            "title": "Writing on AI Programmatic",
+            "description": "Drafting **'The AI Revolution in Programmatic Media Buying'**. Tracing the history from manual bidding to autonomous agents that manage portfolio-level optimization."
         },
         {
             "emoji": "📚",

@@ -1,6 +1,11 @@
 {
-    "updatedAt": "January 26, 2026",
+    "updatedAt": "January 27, 2026",
     "focus_items": [
+        {
+            "emoji": "🌌",
+            "title": "Working on Amazon Nova AI",
+            "description": "Experimenting with **Amazon Nova** foundation models. Evaluating their multimodal capabilities and cost-performance ratio for next-gen agentic workflows."
+        },
         {
             "emoji": "🛠️",
             "title": "Engineering Interactive Assets",

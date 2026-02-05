@@ -1,10 +1,15 @@
 {
-    "updatedAt": "February 2, 2026",
+    "updatedAt": "February 5, 2026",
     "focus_items": [
         {
             "emoji": "🤖",
             "title": "Machines Talking to Machines",
             "description": "Exploring the **Machine Context Protocol (MCP)** and multi-agent systems. Building architectures where specialized AI agents collaborate directly to execute complex, autonomous workflows."
+        },
+        {
+            "emoji": "🛍️",
+            "title": "Ecommerce AI Efficiency",
+            "description": "Optimizing product feed attributes and merchant center data pipelines using LLMs to maximize Free Listing visibility and PMax relevance."
         },
         {
             "emoji": "🌌",

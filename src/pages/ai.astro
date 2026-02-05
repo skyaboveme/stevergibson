@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ThinkingTerminal from "../components/ThinkingTerminal.jsx";
+import AgentTeam from "../components/AgentTeam.jsx";
 import AudienceSimulator from "../components/AudienceSimulator.jsx";
 import ParticleBackground from "../components/ParticleBackground.astro";
 
@@ -56,6 +57,24 @@ const description =
         <!-- Dynamic AI Simulation -->
         <div class="reveal">
             <ThinkingTerminal client:load />
+        </div>
+
+        <!-- Agent Team Anatomy -->
+        <div class="reveal">
+            <div class="text-center mb-12">
+                <h2
+                    class="text-3xl font-bold text-slate-900 dark:text-white mb-4"
+                >
+                    The Agent Team
+                </h2>
+                <p
+                    class="text-xl text-slate-500 dark:text-slate-400 max-w-2xl mx-auto"
+                >
+                    I don't just "use AI". I build specialized agent swarms with
+                    distinct roles and governance protocols. Meet the team.
+                </p>
+            </div>
+            <AgentTeam client:visible />
         </div>
 
         <!-- Framework 1: AI Audience Engine -->

@@ -1,6 +1,11 @@
 {
-    "updatedAt": "January 27, 2026",
+    "updatedAt": "February 2, 2026",
     "focus_items": [
+        {
+            "emoji": "🤖",
+            "title": "Machines Talking to Machines",
+            "description": "Exploring the **Machine Context Protocol (MCP)** and multi-agent systems. Building architectures where specialized AI agents collaborate directly to execute complex, autonomous workflows."
+        },
         {
             "emoji": "🌌",
             "title": "Working on Amazon Nova AI",

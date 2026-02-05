@@ -4,8 +4,13 @@
 Marketing Director with 15+ years of experience leading integrated, cross-functional, multi-channel growth for national brands and high-growth organizations. Steve specializes in connecting customer insight to positioning, messaging, and full-funnel execution across Search, Paid Social, Programmatic, and YouTube. His approach is backed by rigorous measurement, forecasting, and continuous testing, ensuring data-driven success.
 
 ## Core Competencies
-- **Strategic Leadership**: Integrated Marketing Strategy, GTM and Campaign Planning, Team Leadership (15+ person teams), Budget Ownership ($90MM+).
-- **Technical & Analytics**: Google Ads, DV360, Meta Ads, GA4, GTM, Looker Studio, Attribution & Incrementality Testing, Lifecycle/CRM & Nurture.
+- **Strategic Leadership**: Integrated Marketing Strategy, Brand Strategy & Positioning, Revenue Operations (RevOps), GTM and Campaign Planning, Team Leadership (15+ person teams), Budget Ownership ($90MM+), Full Funnel Growth.
+- **Technical & Analytics**: Google Ads (PMax), DV360, Meta Ads, Amazon DSP, GA4, GTM, Looker Studio, SQL & BigQuery, LLM Optimization, AI Integration.
+
+## Currently Working On (Feb 2026)
+- **Machines Talking to Machines**: Building MCP (Machine Context Protocol) architectures where AI agents collaborate directly.
+- **Ecommerce AI Efficiency**: Using LLMs to optimize merchant center feeds for maximum PMax relevance and free listing visibility.
+- **Revenue Engineering**: Building interactive React calculators to visualize compound growth.
 
 ## Professional Experience
 
@@ -39,6 +44,12 @@ Marketing Director with 15+ years of experience leading integrated, cross-functi
 "Steve was the band leader that kept the team together, culturally and professionally... I appreciated his open door, hands-on attitude... Steve has also provided opportunities to broaden my scope."
 
 ## Recent Insights (Blog)
+
+**From Tools to Teammates: Why I Visualize My AI Agents as a Team**
+*Summary:* Argues that treating AI like a staff rather than a calculator changes how you delegate. Introduces the "Agentic" workflow—moving from prompting to architecture—and details how anthropomorphizing code helps manage complex autonomous systems.
+
+**The Invisible User: Optimizing Your Site for Machines-First Discoverability**
+*Summary:* A technical deep dive into "Machines Talking to Machines." Explains why your most important site visitor might not be human. Covers `llms.txt`, JSON-LD Schema, and semantic HTML strategies for Answer Engine Optimization (AEO).
 
 **Apple Finally Blinked: The Apple & Gemini Deal and the War for the Assistant Layer**
 *Summary:* Analyzes Apple's strategic pivot to outsource the "Intelligence Layer" to Google Gemini while focusing on dominating the "Assistant Layer." Discusses the implications for search marketing, apps, and the split between raw intelligence and contextual action.

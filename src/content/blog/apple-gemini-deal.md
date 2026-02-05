@@ -24,7 +24,7 @@ Apple realized that fighting for the Intelligence Layer is expensive and risky. 
 
 ## What Apple is Actually Building
 
-By plugging Gemini into the backend, Apple frees itself to build the fun stuff—the "glue" that makes AI useful on a phone:
+By plugging Gemini into the backend, Apple frees itself to build the fun stuff - the "glue" that makes AI useful on a phone:
 
 *   **Deep App Intents**: The ability for the OS to reach inside an app and press buttons for you. "Order my usual form Sweetgreen" isn't a query for an LLM; it's a complex chain of API calls and permissions.
 *   **Contextual Awareness**: Knowing that when you say "Send this," "this" refers to the photo on your screen.
@@ -51,6 +51,6 @@ This deal solidifies a new kind of duopoly. Google provides the brain (Gemini), 
 
 For marketers, it means the ecosystem is bifurcating. You optimize for **Intelligence** (ensuring Gemini has your facts right so it generates correct answers) and you optimize for **Utility** (ensuring Apple's Assistant layer can physically trigger your service).
 
-The middle ground—websites that exist only to monetize traffic via display ads—is shrinking fast.
+The middle ground - websites that exist only to monetize traffic via display ads - is shrinking fast.
 
-Apple didn't just blink. They opened their eyes to a new reality where they don't need to be the smartest AI in the room—they just need to be the one holding the leash.
+Apple didn't just blink. They opened their eyes to a new reality where they don't need to be the smartest AI in the room - they just need to be the one holding the leash.

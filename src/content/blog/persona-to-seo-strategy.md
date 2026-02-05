@@ -29,7 +29,7 @@ It strips away marketing fluff. A "V.P. of Sales" doesn't search for "integrated
 
 ## Phase 2: Extracting the "Shadow Keywords"
 
-Once you have this deep persona, you mine it for the *real* search terms—the ones keyword tools miss because they don't have enough volume yet, or they are too specific.
+Once you have this deep persona, you mine it for the *real* search terms - the ones keyword tools miss because they don't have enough volume yet, or they are too specific.
 
 Ask your Synthetic Persona:
 > "Based on your journal entry, what are the exact 5 questions you would type into Google to find a solution? Be raw and specific."

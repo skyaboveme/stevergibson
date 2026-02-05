@@ -13,7 +13,7 @@ Those days are gone. And honestly? Good riddance.
 
 Five years ago, I'd spend my mornings like this: Pull competitor keyword reports. Analyze search query data for new negatives. A/B test ad copy variations with subtle character count tweaks. Manually adjust bids on hundreds of keywords based on yesterday's performance.
 
-It was exhausting. And worse—it was increasingly ineffective.
+It was exhausting. And worse - it was increasingly ineffective.
 
 The old paid search playbook treated every click equally. Whether someone bought a $10 item or a $10,000 service package, the algorithm saw them the same way. We optimized for clicks and conversions, not business outcomes. We were mechanics tinkering with parts instead of engineers designing systems.
 
@@ -26,7 +26,7 @@ Here's what consumed our days:
 
 ## The New Reality: Value Rules Everything
 
-Today's paid search runs on a fundamentally different operating system. Instead of telling Google what to target, we tell it *why* we're targeting—what business outcome actually matters.
+Today's paid search runs on a fundamentally different operating system. Instead of telling Google what to target, we tell it *why* we're targeting - what business outcome actually matters.
 
 The revolution has a name: **Value-Based Bidding (VBB)**.
 
@@ -35,7 +35,7 @@ Here's the radical shift: Instead of optimizing for conversions, we optimize for
 The modern paid search operator focuses on:
 
 *   **Outcome Definition** – What's the actual value of each conversion? Not just revenue, but profit after COGS, shipping, and returns. For SaaS? Predicted lifetime value. For B2B? Qualified pipeline value.
-*   **Margin Mathematics** – Understanding your unit economics deeply. If your contribution margin is 20%, you need a 5x ROAS to break even. But here's the kicker—you scale spend until *marginal* ROAS hits that threshold, not average ROAS.
+*   **Margin Mathematics** – Understanding your unit economics deeply. If your contribution margin is 20%, you need a 5x ROAS to break even. But here's the kicker - you scale spend until *marginal* ROAS hits that threshold, not average ROAS.
 *   **Strategic Value Rules** – Telling the algorithm which customers matter most. New customers might be worth 30% more than returning ones. Enterprise leads could be 10x more valuable than SMB. High-margin product categories get multipliers.
 *   **Portfolio Profit Management** – Running campaigns to shared budget pools with aggregate ROAS targets. Letting campaigns cannibalize each other if total profit increases.
 
@@ -51,7 +51,7 @@ We've moved from:
 *   Analyzing CTR → **Analyzing LTV:CAC**
 *   Controlling placements → **Controlling profitability**
 
-The biggest mental leap? Accepting that the algorithm knows more than you do—if you feed it the right incentives.
+The biggest mental leap? Accepting that the algorithm knows more than you do - if you feed it the right incentives.
 
 When you pass real profit data instead of conversion counts, something magical happens. The algorithm finds valuable customers you never knew existed. It discovers profitable micro-moments you'd never manually target. It adjusts bids in real-time based on thousands of signals you can't even access.
 
@@ -59,7 +59,7 @@ When you pass real profit data instead of conversion counts, something magical h
 
 **The keyword jockey is dead. The value engineer is thriving.**
 
-Today's paid search experts don't memorize match types—they understand unit economics. They don't craft clever headlines—they architect data pipelines. They don't analyze search terms—they analyze marginal return curves.
+Today's paid search experts don't memorize match types - they understand unit economics. They don't craft clever headlines - they architect data pipelines. They don't analyze search terms - they analyze marginal return curves.
 
 The new required skills:
 
@@ -72,13 +72,13 @@ The new required skills:
 
 Here's the dirty secret of value-based bidding: **Garbage in, profit destruction out.**
 
-The old world was forgiving. Bad keyword? Pause it. Wrong bid? Adjust it tomorrow. But when you're feeding profit data directly into an algorithm making thousands of decisions per second, data quality isn't just important—it's existential.
+The old world was forgiving. Bad keyword? Pause it. Wrong bid? Adjust it tomorrow. But when you're feeding profit data directly into an algorithm making thousands of decisions per second, data quality isn't just important - it's existential.
 
 I've seen seven-figure campaigns crater because someone forgot to update product costs after a supplier price increase. The algorithm kept optimizing for "profit" that didn't exist. By the time anyone noticed, they'd burned through two months of margin.
 
 ### The New Data Disciplines
 
-1.  **Value Signal Hygiene** – Your conversion values need constant monitoring. Set up alerts for outliers—that $50,000 "conversion" might be a tracking error or a bulk order that'll skew bidding for weeks. Cap values at the 95th percentile. Exclude test transactions. Remove employee purchases.
+1.  **Value Signal Hygiene** – Your conversion values need constant monitoring. Set up alerts for outliers - that $50,000 "conversion" might be a tracking error or a bulk order that'll skew bidding for weeks. Cap values at the 95th percentile. Exclude test transactions. Remove employee purchases.
 2.  **The Lag Problem** – If 40% of your conversion value arrives after 7 days (returns, cancellations, upsells), your algorithm is flying blind. Solution: Use proxy values immediately, then true-up with actual values later. For SaaS, pass initial MRR now, update with realized LTV monthly.
 3.  **Currency and Tax Chaos** – Sending values with tax included while your margin calculations exclude it? Congratulations, you're optimizing for the government's profit. Mixing currencies without proper conversion? Your algorithm thinks Canadian orders are worth 25% less than they are.
 4.  **The Attribution Time Bomb** – Your Google Ads shows 100 conversions worth $10,000. Your backend shows 80 orders worth $8,000. Which is truth? Set up closed-loop attribution with offline conversion imports. Match on GCLIDs, not prayers.
@@ -94,7 +94,7 @@ Smart operators implement three layers of defense:
 
 **2. Weekly Health Checks**
 *   Backend revenue vs. platform-reported value reconciliation
-*   Margin accuracy audits (spot-check 10 orders—do the reported profits match reality?)
+*   Margin accuracy audits (spot-check 10 orders - do the reported profits match reality?)
 *   Value delay analysis (what percentage of value arrives within the attribution window?)
 
 **3. Monthly Deep Dives**
@@ -140,7 +140,7 @@ Kill your SKAGs. Merge your match types. Let responsive search ads do their thin
 
 The best paid search operators today spend zero time on keyword research and 100% of their time on value architecture.
 
-They don't manage campaigns—they manage profit curves. They don't optimize for Google—they optimize for CFOs. They don't chase clicks—they chase cash flow.
+They don't manage campaigns - they manage profit curves. They don't optimize for Google - they optimize for CFOs. They don't chase clicks - they chase cash flow.
 
 The tools changed. The tactics changed. But most importantly, the game changed.
 

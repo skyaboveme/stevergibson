@@ -12,7 +12,7 @@ I see brand and performance not as opposing forces, but as the same system opera
 **Performance marketing** captures the demand that already exists. It is precise, immediate, and transactional.
 **Brand building** increases the total amount of demand available and improves the efficiency of your conversion engine over time.
 
-My approach is to treat brand like an asset that improves your performance metrics. When brand equity is strong, you see higher click-through rates, lower costs per lead, higher trust, better conversion rates, and critically, more branded search volume—which is the cheapest and highest-intent traffic you can get.
+My approach is to treat brand like an asset that improves your performance metrics. When brand equity is strong, you see higher click-through rates, lower costs per lead, higher trust, better conversion rates, and critically, more branded search volume - which is the cheapest and highest-intent traffic you can get.
 
 ## The 3-Layer Budget Allocation
 
@@ -48,4 +48,4 @@ The mistake most organizations make is trying to measure Brand with Performance 
 
 The balance is dynamic, but the rule is simple: **Protect your high-intent pipeline first, then consistently invest in trust and awareness.** 
 
-When you do this, performance doesn't just sustain—it gets cheaper and more scalable because your brand is doing the heavy lifting before the click ever happens.
+When you do this, performance doesn't just sustain - it gets cheaper and more scalable because your brand is doing the heavy lifting before the click ever happens.

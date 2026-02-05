@@ -15,7 +15,7 @@ The core principle of managing Google Ads is no longer "Bid, target, tweak," but
 Success in this new environment depends on an advertiser's ability to provide the platform's machine learning models with high-quality data. This means ensuring your conversion tracking is robust, your first-party data is integrated, and your product feeds are rich with attributes. The algorithm is hungry for context; the better you feed it, the better it performs.
 
 ### 2. Signal: Creative Assets
-Creative is the new targeting. In a world of broad match and Performance Max, your creative assets—headlines, descriptions, images, and videos—act as the primary signals for finding your audience. Diverse, high-quality creative assets allow Google's AI to match the right message to the right user at the right time.
+Creative is the new targeting. In a world of broad match and Performance Max, your creative assets - headlines, descriptions, images, and videos - act as the primary signals for finding your audience. Diverse, high-quality creative assets allow Google's AI to match the right message to the right user at the right time.
 
 ### 3. Steer: Business Objectives
 Your role is to set the destination. Instead of micromanaging CPCs, you must steer the AI with clear business objectives (ROAS, CPA, Profitability) and sophisticated value-based bidding strategies. You are the pilot; the AI is the engine.

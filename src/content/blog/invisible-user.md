@@ -15,9 +15,9 @@ And if it can't understand what it sees, it ignores you.
 
 ## The Shift: Machines Talking to Machines
 
-For 20 years, we've optimized websites for human eyeballs (UI/UX) and for Google's crawler (SEO). But Google's crawler was just an indexer—it grabbed keywords and stored them.
+For 20 years, we've optimized websites for human eyeballs (UI/UX) and for Google's crawler (SEO). But Google's crawler was just an indexer - it grabbed keywords and stored them.
 
-The new "users"—ChatGPT, Claude, Gemini, Perplexity—are not indexers. They are *readers*. They are *synthesizers*. They are trying to understand your site so they can answer a user's question without ever sending that user to your URL.
+The new "users" - ChatGPT, Claude, Gemini, Perplexity - are not indexers. They are *readers*. They are *synthesizers*. They are trying to understand your site so they can answer a user's question without ever sending that user to your URL.
 
 This is the era of **Answer Engine Optimization (AEO)**.
 

@@ -17,7 +17,7 @@ As developers, we're taught that code is logical, emotionless, and functional. "
 
 I disagree.
 
-When you're orchestrating complex AI workflows—where one model writes code, another critiques it, and a third generates documentation—it helps to visualize them as people. It helps to give them *roles*.
+When you're orchestrating complex AI workflows - where one model writes code, another critiques it, and a third generates documentation - it helps to visualize them as people. It helps to give them *roles*.
 
 On my [AI Team page](/ai), I don't just list "Large Language Models." I list **Antigravity**, my Lead Architect. I list **Gemini**, my Creative Director.
 
@@ -44,7 +44,7 @@ My "Personal Operating System" isn't just a website; it's a collaborative enviro
 3.  **The Critic:** Reviews the code against best practices (linting, type safety).
 4.  **The Documentation Specialist:** Updates `llms.txt` and the changelog.
 
-By visualizing these distinctive roles, I can spot bottlenecks. If value isn't being delivered, I don't debug a "script"—I retrain the "staff member."
+By visualizing these distinctive roles, I can spot bottlenecks. If value isn't being delivered, I don't debug a "script" - I retrain the "staff member."
 
 ## The Future of Work
 

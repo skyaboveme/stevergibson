@@ -13,7 +13,7 @@ This shift has created a new economy where **Trust** is the premium currency. An
 
 ## The Flight to Quality
 
-We've seen this pattern before. When factory-made furniture became cheap and ubiquitous, the value of hand-crafted timber didn't disappear—it became a luxury status symbol.
+We've seen this pattern before. When factory-made furniture became cheap and ubiquitous, the value of hand-crafted timber didn't disappear - it became a luxury status symbol.
 
 The same is happening to digital information. Users are retreating from the open, AI-flooded web into "high-trust" enclaves:
 *   **Substacks and Newsletters**: People pay for the *curation* and *voice* of a specific human they trust.
@@ -24,7 +24,7 @@ If your marketing strategy relies on "programmatic SEO" or mass-produced informa
 
 ## The "Proof of Human" Mechanics
 
-So, how do you signal value in a noisy world? You need **Proof of Human**—unforgeable signals that an actual person stands behind the work.
+So, how do you signal value in a noisy world? You need **Proof of Human** - unforgeable signals that an actual person stands behind the work.
 
 ### 1. Work with the Garage Door Up
 Don't just share the result; share the messy process. AI is great at polished final drafts, but it's terrible at documenting the struggle of creation.
@@ -36,7 +36,7 @@ When you show the work, you prove you did the work.
 
 ### 2. Video and Voice are Non-Negotiable
 Text is easily synthesized. A video of you speaking, with your specific cadence, micro-expressions, and personality, is infinitely harder to fake convincingly (for now).
-Embedding a 60-second Loom or YouTube video at the top of a post isn't just "multimedia"—it's a cryptographic signature of humanity.
+Embedding a 60-second Loom or YouTube video at the top of a post isn't just "multimedia" - it's a cryptographic signature of humanity.
 
 ### 3. Strong Opinions > Generic Summaries
 AI models are trained to be agreeable and average. They hedge. They summarize. They default to the median of human knowledge.
@@ -55,7 +55,7 @@ The new winning strategy is **Depth**.
 
 ## Conclusion: Authenticity is a Moat
 
-Authenticity used to be a soft skill—a "nice to have" for brand voice. Today, it is a hard commercial moat.
+Authenticity used to be a soft skill - a "nice to have" for brand voice. Today, it is a hard commercial moat.
 As we move further into the AI age, the companies and individuals who survive won't be the ones with the best prompts. They will be the ones who have built a fortress of trust that no algorithm can breach.
 
 **Be human. It's the one thing the machines can't do.**

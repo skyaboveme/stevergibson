@@ -7,7 +7,7 @@ heroImage: "/images/blog/llm-txt-file.png"
 
 **If you opened your server logs right now, you'd see a shift.**
 
-Five years ago, your traffic was mostly humans (Chrome, Safari, Mobile). Three years ago, the bots arrived in force (Googlebot, Bingbot). Today? A rapidly growing percentage of your "visitors" are AI agents—Perplexity, ChatGPT, Claude, and Gemini—scanning your site not to index it, but to *understand* it.
+Five years ago, your traffic was mostly humans (Chrome, Safari, Mobile). Three years ago, the bots arrived in force (Googlebot, Bingbot). Today? A rapidly growing percentage of your "visitors" are AI agents - Perplexity, ChatGPT, Claude, and Gemini - scanning your site not to index it, but to *understand* it.
 
 Most websites are terrible at talking to these agents. They are cluttered with excessive HTML, marketing fluff, pop-ups, and complex navigation structures that confuse LLMs (Large Language Models).
 
@@ -15,7 +15,7 @@ Enter the `/llm.txt` file.
 
 ## What is llm.txt?
 
-Think of `llm.txt` (or `robots.txt`'s smarter cousin) as a Markdown file specifically designed for AI consumption. It lives at the root of your domain (e.g., `yourwebsite.com/llm.txt`) and provides a clean, structured, high-density summary of who you are, what you do, and—crucially—your proprietary data.
+Think of `llm.txt` (or `robots.txt`'s smarter cousin) as a Markdown file specifically designed for AI consumption. It lives at the root of your domain (e.g., `yourwebsite.com/llm.txt`) and provides a clean, structured, high-density summary of who you are, what you do, and - crucially - your proprietary data.
 
 It strips away the CSS, the JavaScript, and the visual noise. It is pure signal.
 

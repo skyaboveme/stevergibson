@@ -15,11 +15,11 @@ This is the new reality of the **Question Journey**: a customer path increasingl
 
 To understand why AI created this attribution challenge, you need to understand what **GPT** actually means: **Generative Pre-trained Transformer**. Each word explains why your marketing metrics are evolving:
 
-*   **Generative**: These models don't just retrieve information—they generate new text based on probability distributions. Your content isn't being "found" and "displayed"—it's being dissolved into statistical relationships and regenerated as something new.
-*   **Pre-trained**: The model learned from hundreds of billions of tokens (trillions of words) before your customer ever asked their question. If your site was publicly crawlable before 2023, your content might be in that training data, influencing answers about your industry—though there's no way to confirm.
-*   **Transformer**: This architecture excels at modeling contextual relationships between tokens, allowing it to synthesize information from countless sources into seamless, authoritative-sounding answers. The loss of attribution isn't deliberate—it's an artifact of how the architecture works.
+*   **Generative**: These models don't just retrieve information - they generate new text based on probability distributions. Your content isn't being "found" and "displayed" - it's being dissolved into statistical relationships and regenerated as something new.
+*   **Pre-trained**: The model learned from hundreds of billions of tokens (trillions of words) before your customer ever asked their question. If your site was publicly crawlable before 2023, your content might be in that training data, influencing answers about your industry - though there's no way to confirm.
+*   **Transformer**: This architecture excels at modeling contextual relationships between tokens, allowing it to synthesize information from countless sources into seamless, authoritative-sounding answers. The loss of attribution isn't deliberate - it's an artifact of how the architecture works.
 
-This is why GPT-based systems fundamentally challenge traditional marketing: they're not search engines that retrieve and cite—they're pattern machines that absorb and regenerate.
+This is why GPT-based systems fundamentally challenge traditional marketing: they're not search engines that retrieve and cite - they're pattern machines that absorb and regenerate.
 
 ## Why Attribution Becomes Complex (And Why It Matters)
 

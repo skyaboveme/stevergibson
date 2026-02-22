@@ -6,9 +6,32 @@ import profileImage from "../assets/profile.jpg";
 const pageTitle = "Media Kit & Recruiter Resources | Steve R Gibson";
 const description =
     "Resources for recruiters, hiring managers, and conference organizers. Download resume, high-res headshots, and bio.";
+
+const schema = {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    mainEntity: {
+        "@id": "https://stevergibson.com/#person",
+    },
+    hasPart: [
+        {
+            "@type": "WebPageElement",
+            name: "Resume / CV Download",
+            url: new URL(
+                "/CV For Steve Gibson Search and Social Director.pdf",
+                Astro.site,
+            ).toString(),
+        },
+        {
+            "@type": "WebPageElement",
+            name: "LLM Manifest",
+            url: new URL("/llm.txt", Astro.site).toString(),
+        },
+    ],
+};
 ---
 
-<BaseLayout title={pageTitle} description={description}>
+<BaseLayout title={pageTitle} description={description} schema={schema}>
     <section class="max-w-4xl mx-auto space-y-12">
         <header class="text-center mb-12">
             <h1 class="text-4xl font-bold text-slate-900 dark:text-white mb-4">

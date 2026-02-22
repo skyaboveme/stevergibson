@@ -40,9 +40,11 @@ const schema = {
 };
 ---
 
-<BaseLayout title={post.data.title} description={post.data.description}>
-    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
-
+<BaseLayout
+    title={post.data.title}
+    description={post.data.description}
+    schema={schema}
+>
     <!-- Reading Progress Bar -->
     <div
         class="fixed top-0 left-0 w-full z-50 h-1 bg-transparent pointer-events-none"

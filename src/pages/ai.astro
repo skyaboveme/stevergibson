@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ThinkingTerminal from "../components/ThinkingTerminal.jsx";
 import AgentTeam from "../components/AgentTeam.jsx";
+import ConsultAgent from "../components/ConsultAgent.jsx";
 import AudienceSimulator from "../components/AudienceSimulator.jsx";
 import ParticleBackground from "../components/ParticleBackground.astro";
 
@@ -77,8 +78,41 @@ const description =
             <AgentTeam client:visible />
         </div>
 
+        <!-- Consult the Swarm Interactive UI -->
+        <div class="reveal mt-16 md:mt-24">
+            <div class="text-center mb-10">
+                <span
+                    class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-xs font-bold text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800 mb-4"
+                >
+                    <span class="relative flex h-2 w-2">
+                        <span
+                            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"
+                        ></span>
+                        <span
+                            class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"
+                        ></span>
+                    </span>
+                    Live Link Established
+                </span>
+                <h2
+                    class="text-3xl font-bold text-slate-900 dark:text-white mb-4"
+                >
+                    Consult The Swarm
+                </h2>
+                <p
+                    class="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto"
+                >
+                    Select an operations agent below to query their specific
+                    protocols and deployment strategies.
+                </p>
+            </div>
+            <ConsultAgent client:visible />
+        </div>
+
+        <hr class="border-slate-200 dark:border-slate-800 my-16 md:my-24" />
+
         <!-- Framework 1: AI Audience Engine -->
-        <article class="space-y-8">
+        <article id="ai-audience-engine" class="space-y-8">
             <div class="flex items-start gap-4">
                 <div
                     class="p-3 bg-blue-100 dark:bg-blue-900 rounded-xl text-blue-600 dark:text-blue-300 shrink-0 mt-1"
@@ -263,7 +297,7 @@ const description =
         <hr class="border-slate-200 dark:border-slate-800" />
 
         <!-- Framework 2: Feed-Driven DCO -->
-        <article class="space-y-8">
+        <article id="feed-driven-dco" class="space-y-8">
             <div class="flex items-start gap-4">
                 <div
                     class="p-3 bg-purple-100 dark:bg-purple-900 rounded-xl text-purple-600 dark:text-purple-300 shrink-0 mt-1"
@@ -415,7 +449,7 @@ const description =
         <hr class="border-slate-200 dark:border-slate-800" />
 
         <!-- Framework 3: GEO -->
-        <article class="space-y-8">
+        <article id="generative-engine-optimization" class="space-y-8">
             <div class="flex items-start gap-4">
                 <div
                     class="p-3 bg-emerald-100 dark:bg-emerald-900 rounded-xl text-emerald-600 dark:text-emerald-300 shrink-0 mt-1"

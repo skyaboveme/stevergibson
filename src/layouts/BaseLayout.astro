@@ -8,12 +8,86 @@ import { ClientRouter } from "astro:transitions";
 interface Props {
     title: string;
     description?: string;
+    schema?: Record<string, any>;
 }
 
 const {
     title,
     description = "Steve R Gibson - Professional Resume and Portfolio",
+    schema,
 } = Astro.props;
+
+const pathname = Astro.url.pathname;
+const segments = pathname.split("/").filter(Boolean);
+
+const breadcrumbItems = [
+    {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://stevergibson.com/",
+    },
+];
+
+let currentPath = "https://stevergibson.com";
+segments.forEach((segment, index) => {
+    currentPath += `/${segment}`;
+    breadcrumbItems.push({
+        "@type": "ListItem",
+        position: index + 2,
+        name:
+            segment.charAt(0).toUpperCase() +
+            segment.slice(1).replace(/-/g, " "),
+        item: currentPath,
+    });
+});
+
+const breadcrumbSchema = {
+    "@type": "BreadcrumbList",
+    itemListElement: breadcrumbItems,
+};
+
+const defaultPersonSchema = {
+    "@type": "Person",
+    "@id": "https://stevergibson.com/#person",
+    name: "Steve R Gibson",
+    jobTitle: "Marketing Director",
+    url: "https://stevergibson.com",
+    sameAs: ["https://www.linkedin.com/in/stevergibson/"],
+    description:
+        "Marketing Director with 15+ years leading integrated, cross-functional, multi-channel growth for national brands.",
+    knowsAbout: [
+        "Paid Search",
+        "Programmatic Advertising",
+        "Google Ads",
+        "GA4",
+        "Marketing Strategy",
+        "AI in Marketing",
+    ],
+    alumniOf: [
+        {
+            "@type": "Organization",
+            name: "Fullman Firm",
+        },
+        {
+            "@type": "Organization",
+            name: "Canvas Worldwide",
+        },
+    ],
+    worksFor: {
+        "@type": "Organization",
+        name: "Open to Work",
+    },
+};
+
+const finalSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+        defaultPersonSchema,
+        breadcrumbSchema,
+        ...(schema ? [schema] : []),
+    ],
+};
 ---
 
 <!doctype html>
@@ -24,27 +98,36 @@ const {
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/png" href="/SteveRGibsonlogo.png" />
         <meta name="generator" content={Astro.generator} />
-        
+
         <!-- Open Graph / LinkedIn -->
         <meta property="og:type" content="website" />
         <meta property="og:url" content={Astro.url} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:image" content="https://stevergibson.com/images/stevergibsoncareer.jpg" />
+        <meta
+            property="og:image"
+            content="https://stevergibson.com/images/stevergibsoncareer.jpg"
+        />
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={Astro.url} />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
-        <meta property="twitter:image" content="https://stevergibson.com/images/stevergibsoncareer.jpg" />
+        <meta
+            property="twitter:image"
+            content="https://stevergibson.com/images/stevergibsoncareer.jpg"
+        />
 
         <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
 
         <title>{title}</title>
         <!-- Google tag (gtag.js) -->
-        <!-- Google tag (gtag.js) -->
-        <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-22JL77H4DR"></script>
+        <script
+            type="text/partytown"
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-22JL77H4DR"
+        ></script>
         <script type="text/partytown">
             window.dataLayer = window.dataLayer || [];
             function gtag() {
@@ -55,31 +138,10 @@ const {
             gtag("config", "G-22JL77H4DR");
         </script>
         <ClientRouter />
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "Person",
-                "name": "Steve R Gibson",
-                "jobTitle": "Marketing Director",
-                "url": "https://stevergibson.com",
-                "sameAs": ["https://www.linkedin.com/in/stevergibson/"],
-                "description": "Marketing Director with 15+ years leading integrated, cross-functional, multi-channel growth for national brands.",
-                "knowsAbout": ["Paid Search", "Programmatic Advertising", "Google Ads", "GA4", "Marketing Strategy", "AI in Marketing"],
-                "alumniOf": [
-                    {
-                        "@type": "Organization",
-                        "name": "Fullman Firm"
-                    },
-                    {
-                        "@type": "Organization",
-                        "name": "Canvas Worldwide"
-                    }
-                ],
-                "worksFor": {
-                    "@type": "Organization",
-                    "name": "Open to Work"
-                }
-        </script>
+        <script
+            type="application/ld+json"
+            set:html={JSON.stringify(finalSchema)}
+        />
     </head>
     <body
         class="bg-white dark:bg-slate-950 text-slate-800 dark:text-slate-200 min-h-screen flex flex-col font-sans antialiased"

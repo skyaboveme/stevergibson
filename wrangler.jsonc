@@ -1,0 +1,15 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "stevergibson",
+	"compatibility_date": "2026-11-20",
+	"assets": {
+		"directory": "./dist",
+		"html_handling": "auto-trailing-slash",
+		"not_found_handling": "404-page"
+	},
+	// Workers Builds runs `npx wrangler versions upload` with no separate build command.
+	// Wrangler runs this before the upload, so the Astro output exists.
+	"build": {
+		"command": "npm run build"
+	}
+}

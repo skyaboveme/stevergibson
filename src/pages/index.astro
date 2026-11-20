@@ -7,6 +7,7 @@ import Testimonials from "../components/Testimonials.astro";
 import RecentPosts from "../components/RecentPosts.astro";
 import FadeIn from "../components/ui/FadeIn.jsx";
 import CampaignIntelligenceFeed from "../components/CampaignIntelligenceFeed.jsx";
+import CurrentWork from "../components/CurrentWork.astro";
 
 const pageTitle = "Steve R Gibson - Marketing Director";
 ---
@@ -103,6 +104,8 @@ const pageTitle = "Steve R Gibson - Marketing Director";
 	<section class="mb-12">
 		<CampaignIntelligenceFeed client:load />
 	</section>
+
+	<CurrentWork />
 
 	<!-- Current Focus (Now Preview) -->
 	{

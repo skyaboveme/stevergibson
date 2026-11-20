@@ -1,0 +1,61 @@
+{
+    "groups": [
+        {
+            "id": "bastrop",
+            "title": "Bastrop",
+            "summary": "Steve's own projects for Bastrop County, east of Austin.",
+            "projects": [
+                {
+                    "name": "Bastrop County Calendar",
+                    "role": "Local project",
+                    "location": "Bastrop County, Texas",
+                    "url": "https://bastropcountycalendar.com/",
+                    "logo": "/images/projects/bastrop-calendar.svg",
+                    "tags": ["Astro", "Community", "Events"],
+                    "description": "A community calendar of festivals, live music, markets, and gatherings from downtown Bastrop out to Smithville, Elgin, Cedar Creek, and McDade. Listings are free for nonprofits, churches, and government organizations."
+                },
+                {
+                    "name": "Bastropia",
+                    "role": "Local news and video",
+                    "location": "Bastrop County, Texas",
+                    "url": "https://bastropia.com/",
+                    "logo": "/images/projects/bastropia.svg",
+                    "tags": ["News", "Daily video", "Astro"],
+                    "description": "A county desk for local news, a daily video, events, and town directories across Bastrop County. The video uses an AI-generated anchor, and each story points back to its public source."
+                },
+                {
+                    "name": "Bastrop Bold",
+                    "role": "Civic brief",
+                    "location": "Bastrop County, Texas",
+                    "url": "https://bastropbold.com/",
+                    "logo": "/images/projects/bastrop-bold.svg",
+                    "tags": ["Astro", "Civic brief"],
+                    "description": "A civic brief on data centers in rural Bastrop County: how a campus can widen the tax base for schools and the county, and what it asks of residents in students, traffic, water, and power. Each figure on the site is labeled with its source, and campus numbers are kept separate."
+                }
+            ]
+        },
+        {
+            "id": "agents",
+            "title": "AI agents",
+            "summary": "A personal system of specialized assistants, each with one job.",
+            "projects": [
+                {
+                    "name": "Multi-agent marketing system",
+                    "role": "Personal system",
+                    "mark": "AI",
+                    "tags": [
+                        "Google Ads",
+                        "Ad research",
+                        "Analytics",
+                        "SEO",
+                        "Call tracking",
+                        "Content",
+                        "Video",
+                        "Sites"
+                    ],
+                    "description": "A team of specialized assistants Steve runs himself. Separate agents handle Google Ads management, ad-library research, analytics, SEO and AI-visibility reporting, call-tracking reports, content and social posting, video, and website builds."
+                }
+            ]
+        }
+    ]
+}

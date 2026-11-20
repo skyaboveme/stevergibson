@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CurrentWork from "../components/CurrentWork.astro";
+
+const pageTitle = "Current Work | Steve R Gibson";
+const description =
+    "Steve R Gibson's own projects: Bastrop County Calendar, Bastropia, Bastrop Bold, and a multi-agent marketing system.";
+---
+
+<BaseLayout title={pageTitle} description={description}>
+    <CurrentWork variant="page" />
+</BaseLayout>

@@ -1,40 +1,25 @@
 {
-    "updatedAt": "February 18, 2026",
+    "updatedAt": "November 20, 2026",
     "focus_items": [
         {
+            "emoji": "📈",
+            "title": "Paid search, three clients",
+            "description": "Google Ads and Performance Max for <strong>The Fullman Firm</strong>, <strong>Cronin Buick GMC</strong> in Perrysburg, and <strong>String Prairie Heating & Air</strong>. Full-funnel programs aimed at consultations, vehicle demand, and local service calls."
+        },
+        {
+            "emoji": "🖥️",
+            "title": "Sites in production",
+            "description": "Public websites for <strong>Toledo Holistic Healthcare</strong>, <strong>IPTalons</strong>, <strong>God's Embrace Ministries</strong>, and <strong>Skyabove Legal</strong>. Built in Git and shipped for the open web."
+        },
+        {
+            "emoji": "🗺️",
+            "title": "Bastrop, in public",
+            "description": "<strong>Bastrop County Calendar</strong> for community events, <strong>Bastropia</strong> for local news and a daily video, and <strong>Bastrop Bold</strong>, a civic brief on data centers in a rural county."
+        },
+        {
             "emoji": "🤖",
-            "title": "Machines Talking to Machines",
-            "description": "Exploring the **Machine Context Protocol (MCP)** and multi-agent systems. Building architectures where specialized AI agents collaborate directly to execute complex, autonomous workflows."
-        },
-        {
-            "emoji": "⚖️",
-            "title": "Legal AI Integration",
-            "description": "Integrating custom AI agents into **law firm case management** workflows to automate document review, client intake, and deadline tracking."
-        },
-        {
-            "emoji": "🛍️",
-            "title": "Ecommerce AI Efficiency",
-            "description": "Optimizing product feed attributes and merchant center data pipelines using LLMs to maximize Free Listing visibility and PMax relevance."
-        },
-        {
-            "emoji": "🌌",
-            "title": "Working on Amazon Nova AI",
-            "description": "Experimenting with **Amazon Nova** foundation models. Evaluating their multimodal capabilities and cost-performance ratio for next-gen agentic workflows."
-        },
-        {
-            "emoji": "🛠️",
-            "title": "Engineering Interactive Assets",
-            "description": "I'm currently building a **Revenue Engineering Calculator** (React/Framer Motion) to visualize 'The Gibson Effect'—demonstrating how 30% efficiency gains compound into massive annual growth."
-        },
-        {
-            "emoji": "✍️",
-            "title": "Writing on AI Programmatic",
-            "description": "Drafting **'The AI Revolution in Programmatic Media Buying'**. Tracing the history from manual bidding to autonomous agents that manage portfolio-level optimization."
-        },
-        {
-            "emoji": "📚",
-            "title": "Reading",
-            "description": "<strong>\"Thinking, Fast and Slow\"</strong> by Daniel Kahneman.<br /><span class=\"text-sm text-slate-500 block mt-2\">Re-reading to better understand system-1 vs. system-2 thinking, specifically to model how LLMs trigger \"reasoning\" chains vs. instant token prediction.</span>"
+            "title": "A team of agents",
+            "description": "Specialized assistants across the client list: Google Ads, ad-library research, analytics and SEO, AI-visibility reports, call tracking, content and social, video, and site builds. One job per agent, shared across accounts."
         }
     ]
 }

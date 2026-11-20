@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CurrentWork from "../components/CurrentWork.astro";
+
+const pageTitle = "Current Work | Steve R Gibson";
+const description =
+    "Client marketing, website builds, Bastrop projects, and the multi-agent system Steve R Gibson is running now.";
+---
+
+<BaseLayout title={pageTitle} description={description}>
+    <CurrentWork variant="page" />
+</BaseLayout>

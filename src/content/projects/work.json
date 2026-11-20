@@ -1,0 +1,137 @@
+{
+    "groups": [
+        {
+            "id": "client-marketing",
+            "title": "Client marketing",
+            "summary": "Paid search, Performance Max, and full-funnel growth for a law firm, a dealership, and a local contractor.",
+            "projects": [
+                {
+                    "name": "The Fullman Firm",
+                    "role": "Director of Marketing",
+                    "location": "California",
+                    "url": "https://fullmanfirm.com",
+                    "logo": "/images/projects/fullman.png",
+                    "tags": ["Google Ads", "Performance Max", "Full funnel"],
+                    "description": "A California consumer-protection and credit-defense firm that represents people in collection lawsuits, judgments, wage garnishments, and liens. Steve directs paid search, Performance Max, and the full-funnel program from intake through the consultation."
+                },
+                {
+                    "name": "Cronin Buick GMC",
+                    "role": "Paid search",
+                    "location": "Perrysburg, Ohio",
+                    "url": "https://www.buickgmcofperrysburg.com/",
+                    "logo": "/images/projects/cronin.jpg",
+                    "logoWide": true,
+                    "tags": ["Google Ads", "Performance Max", "Dealership"],
+                    "description": "A Buick and GMC dealership in Perrysburg serving drivers across northwest Ohio with new and used vehicles, financing, and service. Steve runs Google Ads and Performance Max from inventory search through the sales and service visit."
+                },
+                {
+                    "name": "String Prairie Heating & Air",
+                    "role": "Paid search and site",
+                    "location": "Bastrop County, Texas",
+                    "url": "https://stringprairieheatingandair.com/",
+                    "logo": "/images/projects/string-prairie.svg",
+                    "tags": ["Google Ads", "Performance Max", "Astro"],
+                    "description": "A family-owned HVAC contractor in Rosanky, covering Bastrop County and nearby Central Texas towns with residential and commercial heating and cooling. Steve runs the paid-search program and built the Astro site those campaigns point to."
+                }
+            ]
+        },
+        {
+            "id": "client-websites",
+            "title": "Client websites",
+            "summary": "Public sites designed and built for clients, kept in Git, and shipped to the open web.",
+            "projects": [
+                {
+                    "name": "Toledo Holistic Healthcare",
+                    "role": "Website",
+                    "location": "Toledo, Ohio",
+                    "url": "https://acupuncturetoledo.com/",
+                    "mark": "TH",
+                    "tags": ["Website", "Healthcare"],
+                    "description": "A whole-person clinic offering chiropractic, acupuncture, massage, and fertility care, with a treatment plan built around the person in the room. Steve designed and built the public site, including services, the team, and a way to request a visit."
+                },
+                {
+                    "name": "IPTalons",
+                    "role": "Website",
+                    "location": "Dallas and Austin",
+                    "url": "https://www.iptalons.com/",
+                    "logo": "/images/projects/iptalons.svg",
+                    "tags": ["Astro", "Cloudflare", "Research security"],
+                    "description": "A research-security firm that helps universities, SBIR companies, and research organizations manage foreign-influence risk and protect intellectual property. Steve built the Astro site on Cloudflare that introduces the firm, its Certified Secure Researcher platform, and a short posture assessment."
+                },
+                {
+                    "name": "God's Embrace Ministries",
+                    "role": "Website",
+                    "url": "https://godsembrace.org/",
+                    "logo": "/images/projects/gods-embrace.png",
+                    "tags": ["Website", "Ministry"],
+                    "description": "A ministry in its twentieth year of teaching, spiritual direction, silent retreats, and pilgrimages, continuing the work Michael and Cherrie Fonseca began. Steve built the public site for programs, giving, and prayer requests."
+                },
+                {
+                    "name": "Skyabove Legal",
+                    "role": "Website",
+                    "url": "https://skyabovelegal.com",
+                    "logo": "/images/projects/skyabove.svg",
+                    "tags": ["Website", "Legal AI"],
+                    "description": "A practice that designs custom AI systems for law firms on MyCase: document intake that files itself, and case reviews drafted from the file for staff to confirm. Steve built the site that walks through the modules, the fixed-scope build, and the handover of code the firm owns."
+                }
+            ]
+        },
+        {
+            "id": "bastrop",
+            "title": "Bastrop",
+            "summary": "Steve's own projects for Bastrop County, east of Austin.",
+            "projects": [
+                {
+                    "name": "Bastrop County Calendar",
+                    "role": "Local project",
+                    "location": "Bastrop County, Texas",
+                    "url": "https://bastropcountycalendar.com/",
+                    "logo": "/images/projects/bastrop-calendar.svg",
+                    "tags": ["Astro", "Community", "Events"],
+                    "description": "A community calendar of festivals, live music, markets, and gatherings from downtown Bastrop out to Smithville, Elgin, Cedar Creek, and McDade. Listings are free for nonprofits, churches, and government organizations."
+                },
+                {
+                    "name": "Bastropia",
+                    "role": "Local news and video",
+                    "location": "Bastrop County, Texas",
+                    "url": "https://bastropia.com/",
+                    "logo": "/images/projects/bastropia.svg",
+                    "tags": ["News", "Daily video", "Astro"],
+                    "description": "A county desk for local news, a daily video, events, and town directories across Bastrop County. The video uses an AI-generated anchor, and each story points back to its public source."
+                },
+                {
+                    "name": "Bastrop Bold",
+                    "role": "Civic brief",
+                    "location": "Bastrop County, Texas",
+                    "url": "https://bastropbold.com/",
+                    "logo": "/images/projects/bastrop-bold.svg",
+                    "tags": ["Astro", "Civic brief"],
+                    "description": "A civic brief on data centers in rural Bastrop County: how a campus can widen the tax base for schools and the county, and what it asks of residents in students, traffic, water, and power. Each figure on the site is labeled with its source, and campus numbers are kept separate."
+                }
+            ]
+        },
+        {
+            "id": "agents",
+            "title": "AI agents",
+            "summary": "The system behind the client work: specialized assistants, each with a job.",
+            "projects": [
+                {
+                    "name": "Multi-agent marketing system",
+                    "role": "In use across clients",
+                    "mark": "AI",
+                    "tags": [
+                        "Google Ads",
+                        "Ad research",
+                        "Analytics",
+                        "SEO",
+                        "Call tracking",
+                        "Content",
+                        "Video",
+                        "Sites"
+                    ],
+                    "description": "A team of specialized assistants Steve runs across his clients. Separate agents handle Google Ads management, ad-library research, analytics, SEO and AI-visibility reporting, call-tracking reports, content and social posting, video, and website builds."
+                }
+            ]
+        }
+    ]
+}

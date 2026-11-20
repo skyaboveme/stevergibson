@@ -2,16 +2,6 @@
     "updatedAt": "November 20, 2026",
     "focus_items": [
         {
-            "emoji": "📈",
-            "title": "Paid search, three clients",
-            "description": "Google Ads and Performance Max for <strong>The Fullman Firm</strong>, <strong>Cronin Buick GMC</strong> in Perrysburg, and <strong>String Prairie Heating & Air</strong>. Full-funnel programs aimed at consultations, vehicle demand, and local service calls."
-        },
-        {
-            "emoji": "🖥️",
-            "title": "Sites in production",
-            "description": "Public websites for <strong>Toledo Holistic Healthcare</strong>, <strong>IPTalons</strong>, <strong>God's Embrace Ministries</strong>, and <strong>Skyabove Legal</strong>. Built in Git and shipped for the open web."
-        },
-        {
             "emoji": "🗺️",
             "title": "Bastrop, in public",
             "description": "<strong>Bastrop County Calendar</strong> for community events, <strong>Bastropia</strong> for local news and a daily video, and <strong>Bastrop Bold</strong>, a civic brief on data centers in a rural county."
@@ -19,7 +9,7 @@
         {
             "emoji": "🤖",
             "title": "A team of agents",
-            "description": "Specialized assistants across the client list: Google Ads, ad-library research, analytics and SEO, AI-visibility reports, call tracking, content and social, video, and site builds. One job per agent, shared across accounts."
+            "description": "A personal system of specialized assistants. Separate agents handle Google Ads, ad-library research, analytics and SEO, AI-visibility reports, call tracking, content and social, video, and site builds."
         }
     ]
 }
